@@ -2,17 +2,45 @@
 <html lang="en">
 <meta charset="UTF-8">
 <style>
-    main nav {background-image: linear-gradient(purple)}
+    main nav
+    main aside {background-image: linear-gradient(purple, skyblue);
+                padding: 1rem;
+    }
+
+    html {
+        height: 100%;
+    }
+
+    body {
+        margin: 0;
+        font-family: "Helvetica Neue", sans-serif;
+        font-size: 125%;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
 
     header nav {
-	flex-grow: 0.85;
+	flex-grow: 2;
 	}
 
     header li {
     word-space:
     }
 
+    li:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    main nav,
+    main aside {
+        background-image: linear-gradient(white, mediumpurple);
+        padding: 2rem;
+    }
+
     header {
+        position: sticky;
 		display: flex;
 		align-items: center;
 		flex-wrap: wrap;
@@ -23,6 +51,11 @@
 	    justify-content: center;
 	    }
 
+    main nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
        ul {
 	list-style: none;
 	display: flex;
@@ -31,22 +64,14 @@
 	}
 
 
+
 </style>
 
 <header>
     <nav>
         <ul>
-            <li style="color: Green">
-                <a> Home </a>
-            </li>
             <li style="color: Blue">
-                <a> HTML </a>
-            </li>
-            <li style="color: Purple">
-                <a> CSS </a>
-            </li>
-            <li style="color: Red">
-                <a> JS </a>
+                <a> Solution Navigator </a>
             </li>
         </ul>
     </nav>
@@ -57,11 +82,28 @@
 
 <main>
 
-    <section>
-        <article>A</article>
-        <article>B</article>
-        <article>C</article>
-    </section>
+    <nav>
+        <ul>
+            <li>
+                <label for="a">HTML</label>
+            </li>
+            <li>
+                <label for="b">CSS</label>
+            </li>
+            <li>
+                <label for="c">RWD</label>
+            </li>
+            <li>
+                <label for="d">JS</label>
+            </li>
+            <li>
+                <label for="e">DOM</label>
+            </li>
+            <li>
+                <label for="f">ES</label>
+            </li>
+        </ul>
+    </nav>
 </main>
 <footer>
     <nav>
