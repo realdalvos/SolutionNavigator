@@ -2,7 +2,6 @@
 <html lang="en">
 <meta charset="UTF-8">
 <style>
-    main nav
     main aside {background-image: linear-gradient(purple, skyblue);
                 padding: 1rem;
     }
@@ -25,7 +24,7 @@
 	}
 
     header li {
-    word-space:
+        padding: 1rem;
     }
 
     li:hover {
@@ -45,25 +44,49 @@
 		align-items: center;
 		flex-wrap: wrap;
 		background-color: rgba(200,200,200,5);
-		border-bottom: 1px solid red;
+		border-bottom: 3px solid peachpuff;
 	}
+
+    header li,
+    footer li {
+        padding: 1rem;
+    }
+
 	header ul {
 	    justify-content: center;
 	    }
+
+    header ul,
+    footer ul {
+        justify-content: center;
+    }
 
     main nav ul {
         display: flex;
         flex-direction: column;
     }
 
-       ul {
-	list-style: none;
-	display: flex;
-	margin: 0;
-	padding: 2;
-	}
+    ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
 
+    input[type="radio"] {
+        display: none;
+    }
 
+    input[type="radio"]:not(:checked) + article {
+        display: none;
+    }
+
+    footer {
+        position: sticky;
+        background-color: greenyellow;
+        bottom: 0;
+        border-top: 1px solid black;
+    }
 
 </style>
 
@@ -81,7 +104,6 @@
 </header>
 
 <main>
-
     <nav>
         <ul>
             <li>
@@ -104,11 +126,41 @@
             </li>
         </ul>
     </nav>
+    <div id="content">
+        <input type="radio" name="article" id="a" checked>
+        <article>
+            HTML
+            <p>
+                Grundlagen zu Web Engineering
+            </p>
+        </article>
+        <input type="radio" name="article" id="b">
+        <article>
+            Cascading Style Sheets
+        </article>
+        <input type="radio" name="article" id="c">
+        <article>
+             Responsive Web Design
+        </article>
+        <input type="radio" name="article" id="d">
+        <article>
+            JavaScript
+        </article>
+        <input type="radio" name="article" id="e">
+        <article>
+            Document Object Model
+        </article>
+        <input type="radio" name="article" id="f">
+        <article>
+            ECMAScript
+        </article>
+
+    </div>
 </main>
 <footer>
     <nav>
         <ul>
-            <li>GmbH</li>
+            <li>Kontakt: vlad.cordos@smail.inf.h-brs.de</li>
         </ul>
     </nav>
 
