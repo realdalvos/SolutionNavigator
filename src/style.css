@@ -32,3 +32,10 @@ li {
     /*width: 200px;*/
     text-decoration: none;
 }
+
+.hamburger {
+border: 0;
+background-color: transparent;
+color: white;
+font-size: 30px;
+}
