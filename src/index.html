@@ -1,183 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <head>
-        <link rel="stylesheet" href="style.css" />
-        <title>SolutionNavigator</title>
-        <meta charset="UTF-8">
-    </head>
-    <body>
-
-    <script src="app.js"></script>
-    </body>
-<style>
-    main aside {background-image: linear-gradient(purple, skyblue);
-                padding: 1rem;
-    }
-
-    html {
-        height: 100%;
-    }
-
-    body {
-        margin: 0;
-        font-family: "Helvetica Neue", sans-serif;
-        font-size: 125%;
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-    }
-
-    header nav {
-	flex-grow: 2;
-	}
-
-    header li {
-        padding: 1rem;
-    }
-
-    li:hover {
-        cursor: pointer;
-        text-decoration: underline;
-    }
-
-    main nav,
-    main aside {
-        background-image: linear-gradient(white, mediumpurple);
-        padding: 2rem;
-    }
-
-    header {
-        position: sticky;
-		display: flex;
-		align-items: center;
-		flex-wrap: wrap;
-		background-color: rgba(200,200,200,5);
-		border-bottom: 3px solid peachpuff;
-	}
-
-    header li,
-    footer li {
-        padding: 1rem;
-    }
-
-	header ul {
-	    justify-content: center;
-	    }
-
-    header ul,
-    footer ul {
-        justify-content: center;
-    }
-
-    main nav ul {
-        display: flex;
-        flex-direction: column;
-    }
-
-    ul {
-        list-style: none;
-        display: flex;
-        margin: 0;
-        padding: 0;
-    }
-
-    input[type="radio"] {
-        display: none;
-    }
-
-    input[type="radio"]:not(:checked) + article {
-        display: none;
-    }
-
-    footer {
-        position: sticky;
-        background-color: greenyellow;
-        bottom: 0;
-        border-top: 1px solid black;
-    }
-
-</style>
-
-<header>
+<head>
+    <meta charset="UTF-8">
+    <title>SolutionNavigator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<section class="first_section">
     <nav>
+        <div>LOGO</div>
         <ul>
-            <li style="color: Blue">
-                <a> Solution Navigator </a>
-            </li>
+            <li>About me</li>
+            <li>Navigator</li>
+            <li>Contact me</li>
         </ul>
     </nav>
-    <div>
-        <div id ="login_logout">Profile</div>
-    </div>
-</header>
+</section>
+<section></section>
+<section></section>
+<footer></footer>
 
-<main>
-    <nav>
-        <ul>
-            <li>
-                <label for="a">HTML</label>
-            </li>
-            <li>
-                <label for="b">CSS</label>
-            </li>
-            <li>
-                <label for="c">RWD</label>
-            </li>
-            <li>
-                <label for="d">JS</label>
-            </li>
-            <li>
-                <label for="e">DOM</label>
-            </li>
-            <li>
-                <label for="f">ES</label>
-            </li>
-        </ul>
-    </nav>
-    <div id="content">
-        <input type="radio" name="article" id="a" checked>
-        <article>
-            HTML
-            <p>
-                Grundlagen zu Web Engineering
-            </p>
-        </article>
-        <input type="radio" name="article" id="b">
-        <article>
-            Cascading Style Sheets
-            <p>
-                epiubwoiugboaiwugiuarewgoiarwegijnrpiug
-
-
-
-                erherherherherh
-            </p>
-        </article>
-        <input type="radio" name="article" id="c">
-        <article>
-             Responsive Web Design
-        </article>
-        <input type="radio" name="article" id="d">
-        <article>
-            JavaScript
-        </article>
-        <input type="radio" name="article" id="e">
-        <article>
-            Document Object Model
-        </article>
-        <input type="radio" name="article" id="f">
-        <article>
-            ECMAScript
-        </article>
-
-    </div>
-</main>
-<footer>
-    <nav>
-        <ul>
-            <li>Kontakt: vlad.cordos@smail.inf.h-brs.de</li>
-        </ul>
-    </nav>
-
-</footer>
+<script src="app.js"></script>
+</body>
+</html>
