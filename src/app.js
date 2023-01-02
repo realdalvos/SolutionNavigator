@@ -31,4 +31,4 @@ countValue.then(
     function errorValue(result) {
         console.log(result);
     }
-);
+);i
