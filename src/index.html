@@ -5,7 +5,6 @@
     <title>SolutionNavigator</title>
     <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://kit.fontawesome.com/761e4c8e5c.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <section class="first_section">
@@ -13,7 +12,7 @@
         <div>
             <img src="img/logo.png.jpeg" id="logo">
         </div>
-        <ul id="nav-list">
+        <ul id="grid-container">
             <li>About me</li>
             <li>Navigator</li>
             <li>Contact me</li>
@@ -24,29 +23,29 @@
     </nav>
     <h1 class="title">Solution Navigator</h1>
     <p class="subject">Web Engineering</p>
-    <h4 class="button">Subscribe to Newsletter</h4>
     <button>Subscribe to Newsletter</button>
-    <nav>
+    <nav id="flex-container">
         <ul>
             <li>
-                <label for="a">HTML</label>
+                <label for="a" class="flex-item">HTML</label>
             </li>
             <li>
-                <label for="b">CSS</label>
+                <label for="b" class="flex-item">CSS</label>
             </li>
             <li>
-                <label for="c">RWD</label>
+                <label for="c" class="flex-item">RWD</label>
             </li>
             <li>
-                <label for="d">JS</label>
+                <label for="d" class="flex-item">JS</label>
             </li>
             <li>
-                <label for="e">DOM</label>
+                <label for="e" class="flex-item">DOM</label>
             </li>
             <li>
-                <label for="f">ES</label>
+                <label for="f" class="flex-item">ES</label>
             </li>
         </ul>
+        <div id="colordiv" onmouseover="this.style.backgroundColor='red'"></div>
     </nav>
     <div id="content">
         <input type="radio" name="article" id="a" checked>
