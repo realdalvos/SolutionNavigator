@@ -18,6 +18,17 @@ button{
     border-radius: 50px;
 }
 
+button:hover{
+    background-color: rebeccapurple;
+    color: yellow;
+}
+
+button:active{
+    background-color: greenyellow;
+    border: 2px solid greenyellow;
+    color: rebeccapurple;
+}
+
 .first_section {
     background-color: #1c1d25;
     height: 135vh;
@@ -29,9 +40,19 @@ footer {
     background-color: black;
 }
 
+label:active{
+    color: #1c1d25;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
+}
+
+li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
 }
 
 ul {

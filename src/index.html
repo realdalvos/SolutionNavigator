@@ -27,56 +27,77 @@
     <nav id="flex-container">
         <ul>
             <li>
-                <label for="a" class="flex-item">HTML</label>
+                <label onclick="showInformation(1)"
+                       for="a" class="flex-item">HTML</label>
             </li>
             <li>
-                <label for="b" class="flex-item">CSS</label>
+                <label onclick="showInformation(2)"
+                       for="b" class="flex-item">CSS</label>
             </li>
             <li>
-                <label for="c" class="flex-item">RWD</label>
+                <label onclick="showInformation(3)"
+                       for="c" class="flex-item">RWD</label>
             </li>
             <li>
-                <label for="d" class="flex-item">JS</label>
+                <label onclick="showInformation()"
+                       for="d" class="flex-item">JS</label>
             </li>
             <li>
-                <label for="e" class="flex-item">DOM</label>
+                <label onclick="showInformation()"
+                       for="e" class="flex-item">DOM</label>
             </li>
             <li>
-                <label for="f" class="flex-item">ES</label>
+                <label onclick="showInformation()"
+                       for="f" class="flex-item">ES</label>
             </li>
         </ul>
         <div id="colordiv" onmouseover="this.style.backgroundColor='red'"></div>
     </nav>
+    <div>
+        <article id="message">Text</article>
+    </div>
     <div id="content">
         <input type="radio" name="article" id="a" checked>
         <article>
             HTML
             <p>
-                Grundlagen zu Web Engineering
+                Text for HTML
             </p>
         </article>
         <input type="radio" name="article" id="b">
         <article>
             Cascading Style Sheets
             <p>
-            Script
+                Text for CSS
             </p>
         </article>
         <input type="radio" name="article" id="c">
         <article>
             Responsive Web Design
+            <p>
+                Text for RWD
+            </p>
         </article>
         <input type="radio" name="article" id="d">
         <article>
             JavaScript
+            <p>
+                Text for JS
+            </p>
         </article>
         <input type="radio" name="article" id="e">
         <article>
             Document Object Model
+            <p>
+                Text for DOM
+            </p>
         </article>
         <input type="radio" name="article" id="f">
         <article>
             ECMAScript
+            <p>
+                Text for ES
+            </p>
         </article>
 
     </div>
