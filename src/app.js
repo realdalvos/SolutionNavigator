@@ -2,7 +2,15 @@ console.log("Welcome to Solution Navigator")
 
 
 
+function showAboutMe(){
+    var result = confirm("Are you sure?");
 
+        if(result) {
+            document.write("You clicked OK button!");
+        } else {
+            document.write("You clicked Cancel button!");
+        }
+}
 
 
 function showInformation(subject){
@@ -11,14 +19,14 @@ function showInformation(subject){
     const messageRWD= 'This text is for RWD';
     console.log("it works");
     switch (subject){
-        case 1:
+        case 'HTML':
             console.log("it works");
             document.getElementById("message").innerHTML =  messageHTML;
             break;
-        case 2:
+        case 'CSS':
             document.getElementById("message").innerHTML =  messageCSS;
             break;
-        case 3:
+        case 'RWD':
             document.getElementById("message").innerHTML =  messageRWD;
     }
 }

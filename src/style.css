@@ -8,11 +8,19 @@ section {
     color: orange;
     font-size:60px;
 }
+img {
+height: 100px;
+}
+.aboutMe:active{
+    color: orange;
+}
 
 .subject {
     font-size:35px;
     color: yellow;
 }
+
+
 button{
     color: rebeccapurple;
     border-radius: 50px;
@@ -52,6 +60,11 @@ nav {
 li:hover {
     cursor: pointer;
     text-decoration: underline;
+    color: white;
+}
+
+li:a {
+    text-decoration: none;
     color: white;
 }
 
