@@ -5,6 +5,7 @@ section {
 }
 
 .title{
+    display: flex;
     color: orange;
     font-size:60px;
 }
@@ -16,7 +17,7 @@ height: 100px;
 }
 
 .subject {
-    font-size:35px;
+    font-size:50px;
     color: yellow;
 }
 
