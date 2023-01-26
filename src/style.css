@@ -21,6 +21,9 @@ height: 100px;
     color: yellow;
 }
 
+.example {
+    color: greenyellow;
+}
 
 button{
     color: rebeccapurple;
@@ -44,6 +47,7 @@ button:active{
     color: white;
     font-size: 20px;
 }
+
 footer {
     height: 100px;
     background-color: black;

@@ -29,23 +29,26 @@
     </div>
     <h1 class="subject">Web Engineering</h1>
     <button><h1>Subscribe to Newsletter</h1></button>
-    <div id="content">
-        <input type="radio" name="article" id="a" checked>
-        <article>
-            HTML
-            <p>
-                Text for HTML
-            </p>
-        </article>
-        <input type="radio" name="article" id="b">
-        <article>
-            Cascading Style Sheets
-            <p>
-                Text for CSS
-            </p>
-        </article>
-        <input type="radio" name="article" id="c">
-        <article>
+    <main>
+        <nav>
+            <div id="content">
+
+             <input type="radio" name="article" id="a" checked>
+             <article>
+                 HTML
+                <p>
+                     Text for HTML
+                 </p>
+             </article>
+                <input type="radio" name="article" id="b">
+            <article>
+                Cascading Style Sheets
+                 <p>
+                     Text for CSS
+                 </p>
+            </article>
+                <input type="radio" name="article" id="c">
+             <article>
             Responsive Web Design
             <p>
                 Text for RWD
@@ -73,32 +76,69 @@
             </p>
         </article>
 
-    </div>
+         </div>
+        </nav>
+    </main>
+    <h2 id="example"> Examples </h2>
     <nav id="flex-container">
         <ul>
             <li>
-                <label onclick="showInformation('HTML')"
+                <label>Pictures</label>
+            </li>
+            <li>
+                <label onclick="showExamplePicture('HTML')"
                        for="a" class="flex-item">HTML</label>
             </li>
             <li>
-                <label onclick="showInformation('CSS')"
+                <label onclick="showExamplePicture('CSS')"
                        for="b" class="flex-item">CSS</label>
             </li>
             <li>
-                <label onclick="showInformation('RWD')"
+                <label onclick="showExamplePicture('RWD')"
                        for="c" class="flex-item">RWD</label>
             </li>
             <li>
-                <label onclick="showInformation('JS')"
+                <label onclick="showExamplePicture('JS')"
                        for="d" class="flex-item">JS</label>
             </li>
             <li>
-                <label onclick="showInformation('DOM')"
+                <label onclick="showExamplePicture('DOM')"
                        for="e" class="flex-item">DOM</label>
             </li>
             <li>
-                <label onclick="showInformation('ES')"
-                       for="f" class="flex-item">ES</label>
+                <label onclick="showExamplePicture('ES')"
+                    for="e" class="flex-item">ES</label>
+            </li>
+        </ul>
+    </nav>
+    <nav id="flex-container">
+        <ul>
+            <li>
+                <label>Raw Text</label>
+            </li>
+            <li>
+                <label onclick="showExampleText('HTML')"
+                       for="a" class="flex-item">HTML</label>
+            </li>
+            <li>
+                <label onclick="showExampleText('CSS')"
+                       for="b" class="flex-item">CSS</label>
+            </li>
+            <li>
+                <label onclick="showExampleText('RWD')"
+                       for="c" class="flex-item">RWD</label>
+            </li>
+            <li>
+                <label onclick="showExampleText('JS')"
+                       for="d" class="flex-item">JS</label>
+            </li>
+            <li>
+                <label onclick="showExampleText('DOM')"
+                       for="e" class="flex-item">DOM</label>
+            </li>
+            <li>
+                <label></label><a href="dog.jpg" onclick="showAboutMe" id="ES">ES</a>
+
             </li>
         </ul>
         <div id="colordiv" onmouseover="this.style.backgroundColor='red'"></div>

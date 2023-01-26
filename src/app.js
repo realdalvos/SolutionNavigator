@@ -13,7 +13,7 @@ function showAboutMe(){
 }
 
 
-function showInformation(subject){
+function showExampleText(subject){
     const messageHTML= 'This text is for HTML';
     const messageCSS= 'This text is for CSS';
     const messageRWD= 'This text is for RWD';
@@ -37,7 +37,35 @@ function showInformation(subject){
             document.getElementById("message").innerHTML =  messageDOM;
             break;
         case 'ES':
-            document.getElementById("message").innerHTML =  messageES;
+            document.getElementById("message").src = 'old_index.html';
+    }
+}
+
+function showExamplePicture(subject){
+    const messageHTML= 'This text is for HTML';
+    const messageCSS= 'This text is for CSS';
+    const messageRWD= 'This text is for RWD';
+    const messageJS= 'This text is for JS';
+    const messageDOM= 'This text is for DOM';
+    const messageES= 'This text is for ES';
+    switch (subject){
+        case 'HTML':
+            document.getElementById("message").innerHTML =  messageHTML;
+            break;
+        case 'CSS':
+            document.getElementById("message").innerHTML =  messageCSS;
+            break;
+        case 'RWD':
+            document.getElementById("message").innerHTML =  messageRWD;
+            break;
+        case 'JS':
+            document.getElementById("message").innerHTML =  messageJS;
+            break;
+        case 'DOM':
+            document.getElementById("message").innerHTML =  messageDOM;
+            break;
+        case 'ES':
+            document.getElementById("message").src = 'old_index.html';
     }
 }
 
