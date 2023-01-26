@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6d74691-ad00-4f06-b6f5-3404ed97683f" name="Changes" comment="logo and link of about me and function parameter changed to '' from number">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="c6d74691-ad00-4f06-b6f5-3404ed97683f" name="Changes" comment="Contact me added email and moved under links" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673955115666</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Contact me added email and moved under links">
+      <created>1674117380755</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1674117380755</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +198,7 @@
     <MESSAGE value="flex and other slight changes" />
     <MESSAGE value="button increases" />
     <MESSAGE value="logo and link of about me and function parameter changed to '' from number" />
-    <option name="LAST_COMMIT_MESSAGE" value="logo and link of about me and function parameter changed to '' from number" />
+    <MESSAGE value="Contact me added email and moved under links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contact me added email and moved under links" />
   </component>
 </project>
