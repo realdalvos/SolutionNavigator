@@ -17,10 +17,11 @@ function showInformation(subject){
     const messageHTML= 'This text is for HTML';
     const messageCSS= 'This text is for CSS';
     const messageRWD= 'This text is for RWD';
-    console.log("it works");
+    const messageJS= 'This text is for JS';
+    const messageDOM= 'This text is for DOM';
+    const messageES= 'This text is for ES';
     switch (subject){
         case 'HTML':
-            console.log("it works");
             document.getElementById("message").innerHTML =  messageHTML;
             break;
         case 'CSS':
@@ -28,6 +29,15 @@ function showInformation(subject){
             break;
         case 'RWD':
             document.getElementById("message").innerHTML =  messageRWD;
+            break;
+        case 'JS':
+            document.getElementById("message").innerHTML =  messageJS;
+            break;
+        case 'DOM':
+            document.getElementById("message").innerHTML =  messageDOM;
+            break;
+        case 'ES':
+            document.getElementById("message").innerHTML =  messageES;
     }
 }
 
