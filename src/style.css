@@ -12,6 +12,7 @@ section {
 img {
 height: 100px;
 }
+
 .aboutMe:active{
     color: orange;
 }
