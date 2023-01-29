@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6d74691-ad00-4f06-b6f5-3404ed97683f" name="Changes" comment="added pictures of solutions and created home with links to frontend basics and scripts and css changes and around reforctoring">
-      <change beforePath="$PROJECT_DIR$/src/htmls/languages.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmls/languages.html" afterDir="false" />
+    <list default="true" id="c6d74691-ad00-4f06-b6f5-3404ed97683f" name="Changes" comment="first section increased">
+      <change beforePath="$PROJECT_DIR$/src/htmls/scripts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmls/scripts.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,7 @@
       <workItem from="1671323639283" duration="2321000" />
       <workItem from="1673473733979" duration="15357000" />
       <workItem from="1674694220397" duration="6403000" />
-      <workItem from="1674780278706" duration="18267000" />
+      <workItem from="1674780278706" duration="18580000" />
     </task>
     <task id="LOCAL-00001" summary="Commit neuer Repo, um fortzugehen mit laufender Commit Möglichkeit">
       <created>1666630526775</created>
@@ -204,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675001084083</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="first section increased">
+      <created>1675001696329</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1675001696329</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +259,7 @@
     <MESSAGE value="Picture and raw Text navs and function for pictures" />
     <MESSAGE value="h3 for example forms" />
     <MESSAGE value="added pictures of solutions and created home with links to frontend basics and scripts and css changes and around reforctoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="added pictures of solutions and created home with links to frontend basics and scripts and css changes and around reforctoring" />
+    <MESSAGE value="first section increased" />
+    <option name="LAST_COMMIT_MESSAGE" value="first section increased" />
   </component>
 </project>
