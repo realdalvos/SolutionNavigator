@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Frontend Basics</title>
+  <link rel="stylesheet" href="../style.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<section class="first_section">
+  <nav>
+    <div>
+      <img src="../pngs/dog.jpg" id="logo">
+    </div>
+    <ul id="links">
+
+        <li><a href="index.html"      >Home</a></li>
+        <li><a href="scripts.html"    >Scripts</a></li>
+      <li><a href="AboutMe.html" >About Me</a></li>
+
+    </ul>
+    <button class="hamburger" id="hamburger">
+      <i class="fas fa-bars"></i>
+    </button>
+  </nav>
+  <p>Contact me: vlad.cordos@gmail.com</p>
+  <div class="title">
+    <h1> &#128526 </h1>
+    <h1> Frontend Basics </h1>
+    <h1> &#128526 </h1>
+  </div>
+  <h3 class="subject">Web Engineering</h3>
+  <button><h1>Subscribe to Newsletter</h1></button>
+  <main>
+    <nav>
+      <div id="content">
+
+        <input type="radio" name="article" id="a" checked>
+        <article>
+          HTML
+          <p>
+            HTML (Hypertext Markup Language) is a standard markup language used to create web pages. It consists of a series of tags and attributes used to structure and format the content on a webpage, such as headings, paragraphs, and links. HTML is the foundation of all websites, and is typically combined with other languages such as CSS and JavaScript to create dynamic and interactive web pages.
+          </p>
+        </article>
+        <input type="radio" name="article" id="b">
+        <article>
+          CSS
+          <p>
+            CSS (Cascading Style Sheets) is a language used to describe the presentation of a document written in a markup language. It allows for the separation of document content from document presentation, including layout, colors, and fonts.
+          </p>
+        </article>
+        <input type="radio" name="article" id="c">
+        <article>
+          RWD
+          <p>
+            RWD (Responsive Web Design) is an approach to web design that aims to make web pages look and function well on a variety of devices, with different screen sizes and resolutions. It uses CSS and JavaScript to adapt the layout of a webpage to the size and capabilities of the device being used to access it, ensuring a consistent user experience across different devices.
+          </p>
+        </article>
+        <input type="radio" name="article" id="e">
+        <article onclick="selected()">
+          DOM
+          <p>
+            The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the structure of a document as a tree-like object and allows for the manipulation and dynamic updates of elements within the document.
+          </p>
+        </article>
+      </div>
+    </nav>
+  </main>
+  <h2> Examples </h2>
+  <nav id="flex-pictures">
+    <h3>
+      <label>Pictures:</label>
+    </h3>
+    <ul>
+      <li>
+        <a class="flex-pictures" href="../pngs/HTMLExamples.png" id="HTML">HTML</a>
+      </li>
+      <li>
+        <a class="flex-pictures" href="../pngs/DOMExample.png" id="CSS">CSS</a>
+      </li>
+      <li>
+        <a class="flex-pictures" href="../pngs/FlexBoxExamples.png" id="RWD">RWD</a>
+      </li>
+
+      <li>
+        <a class="flex-pictures" href="../pngs/DOMExample.png" id="DOM">DOM</a>
+      </li>
+    </ul>
+  </nav>
+  <nav id="flex-container">
+    <h3>
+      <label>Text:</label>
+    </h3>
+    <ul>
+      <li>
+        <label onclick="showExampleText('HTML')"
+               for="a" class="flex-item">HTML</label>
+      </li>
+      <li>
+        <label onclick="showExampleText('CSS')"
+               for="b" class="flex-item">CSS</label>
+      </li>
+      <li>
+        <label onclick="showExampleText('RWD')"
+               for="c" class="flex-item">RWD</label>
+      </li>
+      <li>
+        <label onclick="showExampleText('DOM')"
+               for="e" class="flex-item">DOM</label>
+      </li>
+    </ul>
+    <div id="colordiv" onmouseover="this.style.backgroundColor='red'"></div>
+  </nav>
+  <div>
+    <article id="message">Text</article>
+  </div>
+</section>
+<footer>
+
+</footer>
+
+<script src="../app.js">
+
+</script>
+</body>
+</html>

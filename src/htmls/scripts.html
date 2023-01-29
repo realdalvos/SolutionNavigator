@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scripts</title>
+    <link rel="stylesheet" href="../style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="html">
+<section class="first_section">
+    <nav>
+        <div>
+            <img src="../pngs/dog.jpg" id="logo">
+        </div>
+        <ul id="links">
+
+            <li><a href="index.html"            >Home</a></li>
+            <li><a href="languages.html"   >Frontend Languages</a></li>
+            <li><a href="AboutMehtml"     >About Me</a></li>
+
+        </ul>
+        <button class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+    <p>Contact me: vlad.cordos@gmail.com</p>
+    <div class="title">
+        <h1> &#128526 </h1>
+        <h1> Scripts </h1>
+        <h1> &#128526 </h1>
+    </div>
+    <h3 class="subject">Web Engineering</h3>
+    <button><h1>Subscribe to Newsletter</h1></button>
+    <main>
+        <nav>
+            <div id="content">
+                <input type="radio" name="article" id="d">
+                <article>
+                    JS
+                    <p>
+                        JavaScript is a programming language that is commonly used to add interactivity and other dynamic features to websites. It allows for the creation of things like responsive forms, animations, and interactive maps on a website.
+                    </p>
+                </article>
+                <input type="radio" name="article" id="f">
+                <article>
+                    ES
+                    <p>
+                        ES stands for ECMAScript, which is a standardized version of JavaScript. It's a scripting language that is primarily used to create interactive and dynamic effects within web browsers, but can also be used on the server-side through technologies such as Node.js.
+                    </p>
+                </article>
+
+                <input type="radio" name="article" id="g">
+                <article>
+                    TS
+                    <p>
+                        TypeScript is a superset of JavaScript that adds optional static typing and other features such as classes and interfaces to the language. It can be transpiled to JavaScript, making it compatible with all web browsers and JavaScript environments.
+                    </p>
+                </article>
+
+            </div>
+        </nav>
+    </main>
+    <h2 id="example"> Examples </h2>
+    <nav id="flex-pictures">
+        <h3>
+            <label>Pictures:</label>
+        </h3>
+        <ul>
+            <li>
+                <a class="flex-pictures" href="../pngs/DOMExample.png" id="JS">JS</a>
+            </li>
+            <li>
+                <a class="flex-pictures" href="../pngs/DOMExample.png" id="HTML">ES</a>
+            </li>
+            <li>
+                <a class="flex-pictures" href="../pngs/DOMExample.png" id="CSS">TS</a>
+            </li>
+        </ul>
+    </nav>
+    <nav id="flex-container">
+        <h3>
+            <label>Text:</label>
+        </h3>
+        <ul>
+            <li>
+                <label onclick="showExampleText('JS')"
+                       for="d" class="flex-item">JS</label>
+            </li>
+            <li>
+                <label onclick="showExampleText('ES')"
+                       for="f" class="flex-item">ES</label>
+            </li>
+            <li>
+                <label onclick="showExampleText('TS')"
+                       for="g" class="flex-item">TS</label>
+            </li>
+        </ul>
+    </nav>
+    <div>
+        <article id="message">Examples</article>
+    </div>
+</section>
+<footer>
+
+</footer>
+
+<script src="../app.js">
+
+</script>
+</body>
+</html>

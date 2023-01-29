@@ -22,7 +22,7 @@ height: 100px;
     color: yellow;
 }
 
-.example {
+h2 {
     color: greenyellow;
 }
 
@@ -44,13 +44,13 @@ button:active{
 
 .first_section {
     background-color: #1c1d25;
-    height: 135vh;
+    height: 145vh;
     color: white;
     font-size: 20px;
 }
 
 footer {
-    height: 100px;
+    height: 20px;
     background-color: black;
 }
 
@@ -74,13 +74,35 @@ li:a {
     color: white;
 }
 
-ul {
-    color: coral;
-    display: flex;
-    list-style-type: none;
-    width: 1000px;
-    justify-content: space-around;
-    font-size: 30px;
+p {
+    margin-left: 175px;
+    display: compact;
+}
+
+p:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+p:active {
+    color: blue;
+}
+
+a {
+    margin-left: 175px;
+    display: compact;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a:active {
+    color: green;
+}
+a:visited {
+    color: purple;
 }
 
 hamburger {
@@ -88,6 +110,15 @@ border: 0;
 background-color: transparent;
 color: white;
 font-size: 30px;
+}
+
+ul {
+    color: coral;
+    display: flex;
+    list-style-type: none;
+    width: 1000px;
+    justify-content: space-around;
+    font-size: 30px;
 }
 
 #flex-container {
@@ -98,6 +129,23 @@ font-size: 30px;
 }
 
 .flex-item {
+    background-color: blue;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(119,222,200);
+    border: solid 2px rgb(73,62,145);
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+#flex-pictures{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    margin: 30px;
+}
+
+.flex-pictures {
     background-color: blue;
     border-radius: 10px;
     text-align: center;
