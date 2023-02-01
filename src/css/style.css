@@ -11,7 +11,8 @@ section {
     justify-content: space-around;
 }
 img {
-height: 100px;
+    height: 200px;
+    width: 150px;
 }
 
 .aboutMe:active{
@@ -102,13 +103,6 @@ a:visited {
     color: darkmagenta;
 }
 
-hamburger {
-border: 0;
-background-color: transparent;
-color: white;
-font-size: 30px;
-}
-
 ul {
     color: coral;
     display: flex;
@@ -127,8 +121,7 @@ ul {
 }
 
 .flex-item {
-    width: 100px;
-    background-color: blue;
+    background-color: rgb(13, 53, 182);
     border-radius: 10px;
     text-align: center;
     font-size: 35px;
@@ -145,11 +138,10 @@ ul {
 }
 
 .flex-pictures {
-    background-color: blue;
+    background-color: rgb(119,222,200);
     border-radius: 10px;
     text-align: center;
     font-size: 35px;
-    color: rgb(119,222,200);
+    color: rgb(13, 53, 182);
     border: solid 2px rgb(73,62,145);
     font-family: 'Trebuchet MS', Arial, sans-serif;
-}

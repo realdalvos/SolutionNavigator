@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RWD</title>
+  <link rel="stylesheet" href="../css/style.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="html">
+<section class="first_section">
+  <nav>
+    <div>
+      <img src="../pngs/dog.jpg" id="logo">
+    </div>
+    <ul id="links">
+
+      <li><a href="index.html"       >Home</a></li>
+      <li><a href="languages.html"   >Back</a></li>
+      <li><a href="AboutMe.html"     >About Me</a></li>
+
+    </ul>
+    <button class="hamburger" id="hamburger">
+      <i class="fas fa-bars"></i>
+    </button>
+  </nav>
+  <div class="title">
+    <h1> &#128526 Responsive Web Design &#128526</h1>
+  </div>
+  <h3 class="subject">Web Engineering</h3>
+  <button><h1>Subscribe to Newsletter</h1></button>
+  <main>
+    <nav>
+      <div id="content">
+        <input type="radio" name="article" id="h">
+        <article>
+          Grid
+          <p>
+            Grids are a system of columns and rows used to create a flexible layout for websites.
+          </p>
+        </article>
+        <input type="radio" name="article" id="i">
+        <article>
+          Flex
+          <p>
+            Flexbox is a layout mode in CSS that arranges elements in a container so that they take up available space and distribute space between them.
+          </p>
+        </article>
+      </div>
+    </nav>
+  </main>
+  <h2 id="example"> Examples </h2>
+  <h4> Contact me per E-Mail if you want acces to the open source git hub with all the examples</h4>
+  <h3>
+    <label>Pictures:</label>
+  </h3>
+  <nav id="flex-pictures">
+    <ul>
+      <li>
+        <a class="flex-pictures" href="../pngs/GRIDExample.png" id="GRID">GRID</a>
+      </li>
+      <li>
+        <a class="flex-pictures" href="../pngs/FlexBoxExamples.png" id="FLEX">FLEX</a>
+      </li>
+    </ul>
+  </nav>
+  <h3>
+    <label>What are they useful for?</label>
+  </h3>
+  <nav id="flex-container">
+    <ul>
+      <li>
+        <a onclick="showExampleText('GRID')"
+           for="h" class="flex-item">GRID</a>
+      </li>
+      <li>
+        <a onclick="showExampleText('FLEX')"
+           for="i" class="flex-item">FLEX</a>
+      </li>
+    </ul>
+  </nav>
+  <div>
+    <article id="message">Examples</article>
+  </div>
+</section>
+<footer>
+
+</footer>
+
+<script src="../js/app.js">
+
+</script>
+</body>
