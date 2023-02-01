@@ -8,6 +8,7 @@ section {
     display: flex;
     color: orange;
     font-size:60px;
+    justify-content: space-around;
 }
 img {
 height: 100px;
@@ -20,6 +21,7 @@ height: 100px;
 .subject {
     font-size:50px;
     color: yellow;
+    justify-content: right;
 }
 
 h2 {
@@ -69,11 +71,6 @@ li:hover {
     color: white;
 }
 
-li:a {
-    text-decoration: none;
-    color: white;
-}
-
 p {
     margin-left: 175px;
     display: compact;
@@ -85,7 +82,7 @@ p:hover {
 }
 
 p:active {
-    color: blue;
+    color: orange;
 }
 
 a {
@@ -94,15 +91,15 @@ a {
 }
 
 a:hover {
-    color: red;
-    text-decoration: underline;
+    color: #1c1d25;
+    text-decoration: none;
 }
 
 a:active {
     color: green;
 }
 a:visited {
-    color: purple;
+    color: darkmagenta;
 }
 
 hamburger {
@@ -122,6 +119,7 @@ ul {
 }
 
 #flex-container {
+
     display: flex;
     justify-content: space-around;
     height: 100px;
@@ -129,6 +127,7 @@ ul {
 }
 
 .flex-item {
+    width: 100px;
     background-color: blue;
     border-radius: 10px;
     text-align: center;

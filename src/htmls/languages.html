@@ -26,11 +26,8 @@
       <i class="fas fa-bars"></i>
     </button>
   </nav>
-  <p>Contact me: vlad.cordos@gmail.com</p>
   <div class="title">
-    <h1> &#128526 </h1>
-    <h1> Frontend Basics </h1>
-    <h1> &#128526 </h1>
+    <h1> &#128526 Frontend Basics &#128526</h1>
   </div>
   <h3 class="subject">Web Engineering</h3>
   <button><h1>Subscribe to Newsletter</h1></button>
@@ -41,39 +38,39 @@
         <input type="radio" name="article" id="a" checked>
         <article>
           HTML
-          <p>
-            HTML (Hypertext Markup Language) is a standard markup language used to create web pages. It consists of a series of tags and attributes used to structure and format the content on a webpage, such as headings, paragraphs, and links. HTML is the foundation of all websites, and is typically combined with other languages such as CSS and JavaScript to create dynamic and interactive web pages.
+          <p onclick="selected()">
+            HTML (Hypertext Markup Language) is a standard markup language used to create web pages.
           </p>
         </article>
         <input type="radio" name="article" id="b">
         <article>
           CSS
           <p>
-            CSS (Cascading Style Sheets) is a language used to describe the presentation of a document written in a markup language. It allows for the separation of document content from document presentation, including layout, colors, and fonts.
+            CSS (Cascading Style Sheets) is a language used to describe the presentation of a document written in a markup language.
           </p>
         </article>
         <input type="radio" name="article" id="c">
         <article>
           RWD
           <p>
-            RWD (Responsive Web Design) is an approach to web design that aims to make web pages look and function well on a variety of devices, with different screen sizes and resolutions. It uses CSS and JavaScript to adapt the layout of a webpage to the size and capabilities of the device being used to access it, ensuring a consistent user experience across different devices.
+            RWD (Responsive Web Design) is an approach to web design that aims to make web pages look and function well on a variety of devices, with different screen sizes and resolutions.
           </p>
         </article>
         <input type="radio" name="article" id="e">
         <article onclick="selected()">
           DOM
           <p>
-            The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the structure of a document as a tree-like object and allows for the manipulation and dynamic updates of elements within the document.
+            The Document Object Model (DOM) is a programming interface for HTML and XML documents.
           </p>
         </article>
       </div>
     </nav>
   </main>
   <h2> Examples </h2>
+  <h3>
+    <label>Pictures:</label>
+  </h3>
   <nav id="flex-pictures">
-    <h3>
-      <label>Pictures:</label>
-    </h3>
     <ul>
       <li>
         <a class="flex-pictures" href="../pngs/HTMLExamples.png" id="HTML">HTML</a>
@@ -90,29 +87,28 @@
       </li>
     </ul>
   </nav>
+  <h3>
+    <label>What are they useful for?</label>
+  </h3>
   <nav id="flex-container">
-    <h3>
-      <label>Text:</label>
-    </h3>
     <ul>
       <li>
-        <label onclick="showExampleText('HTML')"
-               for="a" class="flex-item">HTML</label>
+        <a onclick="showExampleText('HTML')"
+               for="a" class="flex-item">HTML</a>
       </li>
       <li>
-        <label onclick="showExampleText('CSS')"
-               for="b" class="flex-item">CSS</label>
+        <a onclick="showExampleText('CSS')"
+               for="b" class="flex-item">CSS</a>
       </li>
       <li>
-        <label onclick="showExampleText('RWD')"
-               for="c" class="flex-item">RWD</label>
+        <a onclick="showExampleText('RWD')"
+               for="c" class="flex-item">RWD</a>
       </li>
       <li>
-        <label onclick="showExampleText('DOM')"
-               for="e" class="flex-item">DOM</label>
+        <a onclick="showExampleText('DOM')"
+               for="e" class="flex-item">DOM</a>
       </li>
     </ul>
-    <div id="colordiv" onmouseover="this.style.backgroundColor='red'"></div>
   </nav>
   <div>
     <article id="message">Text</article>
@@ -122,8 +118,6 @@
 
 </footer>
 
-<script src="../app.js">
-
-</script>
+<script src="../app.js"></script>
 </body>
 </html>
