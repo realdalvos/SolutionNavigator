@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6d74691-ad00-4f06-b6f5-3404ed97683f" name="Changes" comment="test git laptop">
-      <change beforePath="$PROJECT_DIR$/src/htmls/js.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmls/js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/htmls/languages.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmls/languages.html" afterDir="false" />
+    <list default="true" id="c6d74691-ad00-4f06-b6f5-3404ed97683f" name="Changes" comment="final touch">
+      <change afterPath="$PROJECT_DIR$/src/js/fetchapi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675288730582</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="final touch">
+      <created>1675289353722</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1675289353722</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +296,7 @@
     <MESSAGE value="first section increased" />
     <MESSAGE value="link to AboutMe.html in scripts was missing &quot;.&quot;" />
     <MESSAGE value="test git laptop" />
-    <option name="LAST_COMMIT_MESSAGE" value="test git laptop" />
+    <MESSAGE value="final touch" />
+    <option name="LAST_COMMIT_MESSAGE" value="final touch" />
   </component>
 </project>
