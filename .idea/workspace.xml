@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6d74691-ad00-4f06-b6f5-3404ed97683f" name="Changes" comment="test git laptop">
-      <change afterPath="$PROJECT_DIR$/src/htmls/GRIDExample.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/htmls/js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/JSExample.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/functional.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pngs/CSSExample.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pngs/FUNCTIONALExample.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pngs/GRIDExample.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pngs/JSExample.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/GRIDExample.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/htmls/AboutMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmls/AboutMe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/htmls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmls/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/htmls/js.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmls/js.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/htmls/languages.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmls/languages.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/htmls/scripts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmls/scripts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/htmls/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmls/RWD.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/htmls/test2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/old_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmls/old_index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/typescript.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/typescript.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675286030663</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="test git laptop">
+      <created>1675288730582</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1675288730582</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
