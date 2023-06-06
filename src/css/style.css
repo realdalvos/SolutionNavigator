@@ -12,7 +12,7 @@ section {
 }
 img {
     height: 200px;
-    width: 150px;
+    width: 200px;
 }
 
 .aboutMe:active{
@@ -138,10 +138,11 @@ ul {
 }
 
 .flex-pictures {
-    background-color: rgb(119,222,200);
+    background-color: rgb(119, 222, 200);
     border-radius: 10px;
     text-align: center;
     font-size: 35px;
     color: rgb(13, 53, 182);
-    border: solid 2px rgb(73,62,145);
+    border: solid 2px rgb(73, 62, 145);
     font-family: 'Trebuchet MS', Arial, sans-serif;
+}
