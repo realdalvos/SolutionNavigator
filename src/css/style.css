@@ -50,6 +50,7 @@ button:active{
     height: 350vh;
     color: white;
     font-size: 20px;
+    align-content: center;
 }
 
 footer {
@@ -145,4 +146,18 @@ ul {
     color: rgb(13, 53, 182);
     border: solid 2px rgb(73, 62, 145);
     font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+table{
+    border: orange;
+    align-content: center;
+}
+td{
+    size: 100px;
+}
+solutionHome{
+    align-content: center;
+}
+tr:hover{
+    cursor: pointer;
+    background-color: #ccc;
 }
