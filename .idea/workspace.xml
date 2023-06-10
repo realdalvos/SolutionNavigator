@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6d74691-ad00-4f06-b6f5-3404ed97683f" name="Changes" comment="Logo changed to NFT and email for question given">
-      <change afterPath="$PROJECT_DIR$/src/exercises/JS_Execercise.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/htmls/solutions.html" afterDir="false" />
+    <list default="true" id="c6d74691-ad00-4f06-b6f5-3404ed97683f" name="Changes" comment="First Table data as link">
+      <change afterPath="$PROJECT_DIR$/src/exercises/exerciseJS.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercises/JS_Execercise.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/htmls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmls/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/htmls/solutions.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmls/solutions.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,11 +55,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/htmls/exercises" />
+      <recent name="$PROJECT_DIR$/src/htmls" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/pngs" />
       <recent name="$PROJECT_DIR$/src/css" />
-      <recent name="$PROJECT_DIR$/src/htmls" />
-      <recent name="$PROJECT_DIR$/src/js" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -88,7 +89,7 @@
       <workItem from="1683057908146" duration="129000" />
       <workItem from="1685918601929" duration="341000" />
       <workItem from="1686076482741" duration="3039000" />
-      <workItem from="1686348282636" duration="2207000" />
+      <workItem from="1686348282636" duration="4749000" />
     </task>
     <task id="LOCAL-00001" summary="Commit neuer Repo, um fortzugehen mit laufender Commit Möglichkeit">
       <created>1666630526775</created>
@@ -265,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686078367216</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="First Table data as link">
+      <created>1686432208477</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1686432208477</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +330,7 @@
     <MESSAGE value="final touch" />
     <MESSAGE value="Logo changed to NFT" />
     <MESSAGE value="Logo changed to NFT and email for question given" />
-    <option name="LAST_COMMIT_MESSAGE" value="Logo changed to NFT and email for question given" />
+    <MESSAGE value="First Table data as link" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Table data as link" />
   </component>
 </project>
