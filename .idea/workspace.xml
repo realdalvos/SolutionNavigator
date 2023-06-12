@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6d74691-ad00-4f06-b6f5-3404ed97683f" name="Changes" comment="First Table data as link">
-      <change afterPath="$PROJECT_DIR$/src/exercises/exerciseJS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercises/JS_Execercise.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/htmls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmls/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/htmls/solutions.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmls/solutions.html" afterDir="false" />
+    <list default="true" id="c6d74691-ad00-4f06-b6f5-3404ed97683f" name="Changes" comment="add nft">
+      <change afterPath="$PROJECT_DIR$/src/pngs/NightHopper.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +84,7 @@
       <workItem from="1683057908146" duration="129000" />
       <workItem from="1685918601929" duration="341000" />
       <workItem from="1686076482741" duration="3039000" />
-      <workItem from="1686348282636" duration="4749000" />
+      <workItem from="1686348282636" duration="5785000" />
     </task>
     <task id="LOCAL-00001" summary="Commit neuer Repo, um fortzugehen mit laufender Commit Möglichkeit">
       <created>1666630526775</created>
@@ -273,7 +268,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686432208477</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="add nft">
+      <created>1686436869829</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1686436869829</updated>
+    </task>
+    <task id="LOCAL-00028" summary="add nft">
+      <created>1686436917537</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1686436917537</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +315,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit neuer Repo, um fortzugehen mit laufender Commit Möglichkeit" />
     <MESSAGE value="Reformating" />
     <MESSAGE value="Grundformat angefertigt. Nächste Ziele: Themen befüllen, Collumns einrichten" />
     <MESSAGE value="Neue Dateien" />
@@ -331,6 +339,7 @@
     <MESSAGE value="Logo changed to NFT" />
     <MESSAGE value="Logo changed to NFT and email for question given" />
     <MESSAGE value="First Table data as link" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Table data as link" />
+    <MESSAGE value="add nft" />
+    <option name="LAST_COMMIT_MESSAGE" value="add nft" />
   </component>
 </project>
