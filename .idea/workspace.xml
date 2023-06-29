@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6d74691-ad00-4f06-b6f5-3404ed97683f" name="Changes" comment="add nft">
-      <change afterPath="$PROJECT_DIR$/src/pngs/NightHopper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/exerciseJV.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/exerciseRWD.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/JS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercises/exerciseJS.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/exerciseJS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/htmls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmls/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/htmls/solutions.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmls/solutions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/functional.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/functional.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,11 +20,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTTP Request" />
         <option value="TypeScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -85,6 +92,8 @@
       <workItem from="1685918601929" duration="341000" />
       <workItem from="1686076482741" duration="3039000" />
       <workItem from="1686348282636" duration="5785000" />
+      <workItem from="1686600524875" duration="5264000" />
+      <workItem from="1687994240595" duration="2347000" />
     </task>
     <task id="LOCAL-00001" summary="Commit neuer Repo, um fortzugehen mit laufender Commit Möglichkeit">
       <created>1666630526775</created>
@@ -282,7 +291,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686436917537</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add nft">
+      <created>1686600571625</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1686600571625</updated>
+    </task>
+    <task id="LOCAL-00030" summary="add nft">
+      <created>1686600731913</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1686600731913</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
