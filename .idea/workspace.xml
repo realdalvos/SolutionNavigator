@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6d74691-ad00-4f06-b6f5-3404ed97683f" name="Changes" comment="add nft">
-      <change afterPath="$PROJECT_DIR$/src/css/exerciseJV.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercises/exerciseRWD.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solutions/JS.js" afterDir="false" />
+    <list default="true" id="c6d74691-ad00-4f06-b6f5-3404ed97683f" name="Changes" comment="solutions to JavaScript Exercises and minor changes to table references">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/exercises/exerciseJS.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/exerciseJS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercises/exerciseRWD.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/exerciseRWD.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/htmls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmls/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/htmls/solutions.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmls/solutions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/functional.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/functional.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solutions/JS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/JS.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +91,7 @@
       <workItem from="1686076482741" duration="3039000" />
       <workItem from="1686348282636" duration="5785000" />
       <workItem from="1686600524875" duration="5264000" />
-      <workItem from="1687994240595" duration="2347000" />
+      <workItem from="1687994240595" duration="11162000" />
     </task>
     <task id="LOCAL-00001" summary="Commit neuer Repo, um fortzugehen mit laufender Commit Möglichkeit">
       <created>1666630526775</created>
@@ -305,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686600731913</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="solutions to JavaScript Exercises and minor changes to table references">
+      <created>1687998049250</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1687998049250</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +343,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Reformating" />
     <MESSAGE value="Grundformat angefertigt. Nächste Ziele: Themen befüllen, Collumns einrichten" />
     <MESSAGE value="Neue Dateien" />
     <MESSAGE value="Neuer Anfang, Restrukturierung" />
@@ -363,6 +367,7 @@
     <MESSAGE value="Logo changed to NFT and email for question given" />
     <MESSAGE value="First Table data as link" />
     <MESSAGE value="add nft" />
-    <option name="LAST_COMMIT_MESSAGE" value="add nft" />
+    <MESSAGE value="solutions to JavaScript Exercises and minor changes to table references" />
+    <option name="LAST_COMMIT_MESSAGE" value="solutions to JavaScript Exercises and minor changes to table references" />
   </component>
 </project>

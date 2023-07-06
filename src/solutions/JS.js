@@ -46,7 +46,7 @@ const peter = {
 
 function conflict(car, persons){
     var owners = 0;
-    persons.forEach( person => person.cars.include( car ) &&  owners++);
+    persons.forEach( person => person.cars.includes( car ) &&  owners++);
     return owners > 1;
 }
 
@@ -62,8 +62,9 @@ function fibonnaciUntil2000(x,y){
         fibonnaciNumber++
         fibonnaciUntil2000(y,x+y)
     }
-    if(fibonnaciNumber<2001){
+    if(fibonnaciNumber<2){
         console.log(x+y)
+        fibonnaciNumber++
         fibonnaciUntil2000(y,x+y)
     }
 }
