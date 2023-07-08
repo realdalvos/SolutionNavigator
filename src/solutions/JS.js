@@ -53,20 +53,19 @@ function conflict(car, persons){
 const result = conflict(seat, [peter, hans ]);
 console.log(result);
 
-let fibonnaciNumber = 0
-
 function fibonnaciUntil2000(x,y){
-    if(fibonnaciNumber=0){
+    if(fibonnaciNumber==0){
         console.log(x)
         console.log(y)
-        fibonnaciNumber++
+        fibonnaciNumber=fibonnaciNumber+2
         fibonnaciUntil2000(y,x+y)
     }
-    if(fibonnaciNumber<2){
+    else if(fibonnaciNumber<2001){
         console.log(x+y)
         fibonnaciNumber++
-        fibonnaciUntil2000(y,x+y)
+        fibonnaciUntil2000(y,x+y,)
     }
 }
+let fibonnaciNumber = 0
 
 fibonnaciUntil2000(0,1)

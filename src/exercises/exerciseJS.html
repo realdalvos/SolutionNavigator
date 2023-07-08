@@ -35,7 +35,7 @@
     .container1 {
         display: flex;
         flex-direction: row;
-        border: 4px solid red;
+        border: 4px #1c1d25;
         column-gap: 32px;
         justify-content: space-evenly;
         padding: 32px;
@@ -51,7 +51,7 @@
 
     .item1 {
         padding: 32px;
-        border: 4px solid green;
+        border: 4px solid coral;
     }
 
     .hidden {
@@ -69,11 +69,19 @@
     }
 </style>
 
-<body class="html">
+<body class="html  first_section">
+
         <div>
             <img src="../pngs/NightHopper.png" id="logo">
         </div>
-        <div class="container1 first_section">
+        <nav>
+            <ul>
+
+                <li><a href="../htmls/index.html">Home</a></li>
+
+            </ul>
+        </nav>
+        <div class="container1">
             <div class="item1 container2">
                 <div>Task 1: Schreiben Sie eine Funktion identity(), die ein Argument als Parameter entgegen nimmt und dieses als Ergebnis zurück gibt.
                     <div class="button" onclick="setSolution('solution1', 'visible')">show solution</div><div class="button" onclick="setSolution('solution1', 'hide')">hide solution</div></div>
@@ -156,21 +164,20 @@
                 </div>
                 <div class="hidden" id="solution6">
 
-                    let fibonnaciNumber = 0
-
                     function fibonnaciUntil2000(x,y){
-                    if(fibonnaciNumber=0){
+                    if(fibonnaciNumber==0){
                     console.log(x)
                     console.log(y)
-                    fibonnaciNumber++
+                    fibonnaciNumber=fibonnaciNumber+2
                     fibonnaciUntil2000(y,x+y)
                     }
-                    if(fibonnaciNumber<2){
+                    else if(fibonnaciNumber<2001){
                     console.log(x+y)
                     fibonnaciNumber++
-                    fibonnaciUntil2000(y,x+y)
+                    fibonnaciUntil2000(y,x+y,)
                     }
                     }
+                    let fibonnaciNumber = 0
 
                     fibonnaciUntil2000(0,1)
                 </div>
@@ -178,4 +185,5 @@
         </div>
 
 </body>
+<script src="./js/showHideSolutions"></script>
 </html>

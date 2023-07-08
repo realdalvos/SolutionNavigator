@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Exercises</title>
+  <link rel="stylesheet" href="../css/exerciseJV.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<script>
+  const setSolution = (id, visibility) => {
+
+
+    const element = document.getElementById(id);
+    switch (visibility) {
+      case "visible":
+        element.classList.remove("hidden");
+        break;
+      case "hide":
+        element.classList.add("hidden");
+        break;
+    }
+  }
+
+</script>
+
+<style>
+  .first_section {
+    background-color: #1c1d25;
+    height: 350vh;
+    color: white;
+    font-size: 20px;
+    align-content: center;
+  }
+  .container1 {
+    display: flex;
+    flex-direction: row;
+    border: 4px #1c1d25;
+    column-gap: 32px;
+    justify-content: space-evenly;
+    padding: 32px;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    border: 4px yellowgreen;
+    row-gap: 32px;
+    padding: 32px;
+  }
+
+  .item1 {
+    padding: 32px;
+    border: 4px solid coral;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .button {
+    border: 4px solid peachpuff;
+  }
+  .button:hover {
+    background: black;
+    transition-duration: 0.3s;
+    color: teal;
+    cursor: pointer;
+  }
+</style>
+
+<body class="html  first_section">
+
+<div>
+  <img src="../pngs/NightHopper.png" id="logo">
+</div>
+<nav>
+  <ul>
+
+    <li><a href="../htmls/index.html">Home</a></li>
+
+  </ul>
+</nav>
+<div class="container1">
+  <div class="item1 container2">
+    <div>Task 1: Schreiben Sie eine Funktion, die 3 Längen eines Würfels bekommt und das Volum zurück gibt.
+      <div class="button" onclick="setSolution('solution1', 'visible')">show solution</div><div class="button" onclick="setSolution('solution1', 'hide')">hide solution</div></div>
+
+    <div>Task 2: Bearbeiten Sie die Task 1, jedoch mit einer Arrow Function
+      <div class="button" onclick="setSolution('solution2', 'visible')">show solution</div><div class="button" onclick="setSolution('solution2', 'hide')">hide solution</div></div>
+
+    <div>Task 3: Erzeugen Sie einen Array mit Zahlen, filtern Sie es und geben Sie zurück den Array, nur mit den geraden Zahlen.
+      <div class="button" onclick="setSolution('solution3', 'visible')">show solution</div><div class="button" onclick="setSolution('solution3', 'hide')">hide solution</div></div>
+
+    <div>Task 4: Erzeugen Sie einen neuen Array mit Map und bearbeiten Sie es zu einem String-Array.
+      <div class="button" onclick="setSolution('solution4', 'visible')">show solution</div><div class="button" onclick="setSolution('solution4', 'hide')">hide solution</div></div>
+
+    <div>Task 5: Sie haben in den vorherigen Kapitel eine Funktion für Summenberechnung geschreiben. Wiederholen Sie es diesmal mit reduce.
+      <div class="button" onclick="setSolution('solution5', 'visible')">show solution</div><div class="button" onclick="setSolution('solution5', 'hide')">hide solution</div></div>
+
+    <div>Schreiben Sie im Browser die Fibonacci-Funktion in JS und geben Sie die ersten 2000 Fibonacci-Zahlen 0,1,1,2,3,5,8,13,... auf der Konsole mit console.log() aus.
+      <div class="button" onclick="setSolution('solution6', 'visible')">show solution</div><div class="button" onclick="setSolution('solution6', 'hide')">hide solution</div></div>
+  </div>
+
+  <div class="item1 container2">
+    <div class="hidden" id="solution1">
+      function volume(a,b,c){
+      return a*b*c;}
+    </div>
+
+    <div class="hidden" id="solution2">
+      let volumeArrow = (a,b,c) => a*b*c
+
+      console.log(volume(2,2,2))
+      console.log(volumeArrow(2,3,4))
+    </div>
+    <div class="hidden" id="solution3">
+      const array=[3,4,3,7]
+
+      const odd = array.filter(n => n%2==0)
+
+      console.log(odd)
+    </div>
+    <div class="hidden" id="solution4">
+      const numbers2 = array.filter(n => n%2==0).map(n => ({value: n}));
+
+      console.log(numbers2);
+    </div>
+    <div class="hidden" id="solution5">
+      const arr=[2,-4,3,7];
+
+      const sum = arr.reduce((accumulator,currentvalue) => accumulator + currentvalue);
+
+      console.log(sum);
+
+    </div>
+    <div class="hidden" id="solution6">
+
+      function fibonnaciUntil2000(x,y){
+      if(fibonnaciNumber==0){
+      console.log(x)
+      console.log(y)
+      fibonnaciNumber=fibonnaciNumber+2
+      fibonnaciUntil2000(y,x+y)
+      }
+      else if(fibonnaciNumber<2001){
+      console.log(x+y)
+      fibonnaciNumber++
+      fibonnaciUntil2000(y,x+y,)
+      }
+      }
+      let fibonnaciNumber = 0
+
+      fibonnaciUntil2000(0,1)
+    </div>
+  </div>
+</div>
+
+</body>
+<script src="./js/showHideSolutions"></script>
+</html>

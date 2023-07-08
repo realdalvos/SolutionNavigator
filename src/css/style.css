@@ -20,9 +20,12 @@ img {
 }
 
 .subject {
+    display: marker;
     font-size:50px;
     color: yellow;
     justify-content: right;
+    position: relative;
+    left: 1075px;
 }
 
 h2 {
@@ -161,5 +164,13 @@ tr:hover{
     cursor: pointer;
     background-color: #ccc;
 }
-.solutionsLinkHome{
-    display: marker;}
+
+.skillz{
+    position: relative;
+    left: 650px;
+}
+
+.midButton{
+    position: relative;
+    left: 1150px;
+}
