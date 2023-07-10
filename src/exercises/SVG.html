@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>JavaScript Exercises</title>
-  <link rel="stylesheet" href="../css/exerciseJV.css"/>
+  <link rel="stylesheet" href="../css/exercises.css"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <script>
@@ -23,50 +23,7 @@
 
 </script>
 
-<style>
-  .first_section {
-    background-color: #1c1d25;
-    height: 350vh;
-    color: white;
-    font-size: 20px;
-    align-content: center;
-  }
-  .container1 {
-    display: flex;
-    flex-direction: row;
-    border: 4px #1c1d25;
-    column-gap: 32px;
-    justify-content: space-evenly;
-    padding: 32px;
-  }
 
-  .container2 {
-    display: flex;
-    flex-direction: column;
-    border: 4px yellowgreen;
-    row-gap: 32px;
-    padding: 32px;
-  }
-
-  .item1 {
-    padding: 32px;
-    border: 4px solid coral;
-  }
-
-  .hidden {
-    display: none;
-  }
-
-  .button {
-    border: 4px solid peachpuff;
-  }
-  .button:hover {
-    background: black;
-    transition-duration: 0.3s;
-    color: teal;
-    cursor: pointer;
-  }
-</style>
 
 <body class="html  first_section">
 
@@ -82,7 +39,7 @@
 </nav>
 <div class="container1">
   <div class="item1 container2">
-    <div>Task 1: Schreiben Sie eine Funktion, die 3 Längen eines Würfels bekommt und das Volum zurück gibt.
+    <div>Task 1: Erstellen Sie einen Rechteck
       <div class="button" onclick="setSolution('solution1', 'visible')">show solution</div><div class="button" onclick="setSolution('solution1', 'hide')">hide solution</div></div>
 
     <div>Task 2: Bearbeiten Sie die Task 1, jedoch mit einer Arrow Function
@@ -97,14 +54,24 @@
     <div>Task 5: Sie haben in den vorherigen Kapitel eine Funktion für Summenberechnung geschreiben. Wiederholen Sie es diesmal mit reduce.
       <div class="button" onclick="setSolution('solution5', 'visible')">show solution</div><div class="button" onclick="setSolution('solution5', 'hide')">hide solution</div></div>
 
-    <div>Schreiben Sie im Browser die Fibonacci-Funktion in JS und geben Sie die ersten 2000 Fibonacci-Zahlen 0,1,1,2,3,5,8,13,... auf der Konsole mit console.log() aus.
+    <div>Task 6: Deklarieren Sie 2 Array, das erste mit Essential in einem Hamburger und den 2. mit den restlichen Zutaten. "Schieben" Sie die essentials in der Mitte der Zutaten mit Spread.
       <div class="button" onclick="setSolution('solution6', 'visible')">show solution</div><div class="button" onclick="setSolution('solution6', 'hide')">hide solution</div></div>
+
+    <div>Task 7: Deklarieren Sie 2 Array, das erste mit Essential in einem Hamburger und den 2. mit den restlichen Zutaten. "Schieben" Sie die essentials in der Mitte der Zutaten mit Spread.
+      <div class="button" onclick="setSolution('solution7', 'visible')">show solution</div><div class="button" onclick="setSolution('solution7', 'hide')">hide solution</div></div>
   </div>
 
   <div class="item1 container2">
     <div class="hidden" id="solution1">
-      function volume(a,b,c){
-      return a*b*c;}
+      <svg viewBox="0 0 100 100">
+          <style>{
+            .rectangle ´
+            fill:blue;
+          }
+           </style>
+          .rect class="rectangle"
+          x="100" y="100"
+      </svg>
     </div>
 
     <div class="hidden" id="solution2">
@@ -135,22 +102,17 @@
     </div>
     <div class="hidden" id="solution6">
 
-      function fibonnaciUntil2000(x,y){
-      if(fibonnaciNumber==0){
-      console.log(x)
-      console.log(y)
-      fibonnaciNumber=fibonnaciNumber+2
-      fibonnaciUntil2000(y,x+y)
-      }
-      else if(fibonnaciNumber<2001){
-      console.log(x+y)
-      fibonnaciNumber++
-      fibonnaciUntil2000(y,x+y,)
-      }
-      }
-      let fibonnaciNumber = 0
+      var essentials = ['lettuce','ham',,'cheddar','tomato'];
+      var hamburger = ['bread',...essentials,'mayo'];
+      console.log('My handburger has  these ingredients in the following order: ' + hamburger);
 
-      fibonnaciUntil2000(0,1)
+    </div>
+    <div class="hidden" id="solution7">
+
+      var essentials = ['lettuce','ham',,'cheddar','tomato'];
+      var hamburger = ['bread',...essentials,'mayo'];
+      console.log('My handburger has  these ingredients in the following order: ' + hamburger);
+
     </div>
   </div>
 </div>

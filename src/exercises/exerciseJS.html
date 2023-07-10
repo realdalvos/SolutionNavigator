@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>JavaScript Exercises</title>
-    <link rel="stylesheet" href="../css/exerciseJV.css"/>
+    <link rel="stylesheet" href="../css/exercises.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <script>
@@ -23,166 +23,147 @@
     }
 
 </script>
-
 <style>
-    .first_section {
-        background-color: #1c1d25;
-        height: 350vh;
-        color: white;
-        font-size: 20px;
-        align-content: center;
-    }
-    .container1 {
-        display: flex;
-        flex-direction: row;
-        border: 4px #1c1d25;
-        column-gap: 32px;
-        justify-content: space-evenly;
-        padding: 32px;
-    }
-
-    .container2 {
-        display: flex;
-        flex-direction: column;
-        border: 4px yellowgreen;
-        row-gap: 32px;
-        padding: 32px;
-    }
-
-    .item1 {
-        padding: 32px;
-        border: 4px solid coral;
-    }
-
-    .hidden {
-        display: none;
-    }
-
-    .button {
-        border: 4px solid peachpuff;
-    }
-    .button:hover {
-        background: black;
-        transition-duration: 0.3s;
-        color: teal;
-        cursor: pointer;
+    .container2{
+        height: 1200px;
     }
 </style>
 
 <body class="html  first_section">
 
-        <div>
-            <img src="../pngs/NightHopper.png" id="logo">
+<div>
+    <img src="../pngs/NightHopper.png" id="logo">
+</div>
+<nav>
+    <ul>
+
+        <li><a href="../htmls/index.html">Home</a></li>
+
+    </ul>
+</nav>
+<div class="container1">
+    <div class="item1 container2">
+        <div>Task 1: Schreiben Sie eine Funktion identity(), die ein Argument als Parameter entgegen nimmt und dieses als Ergebnis zurück gibt.
+            <div class="button" onclick="setSolution('solution1', 'visible')">show solution</div><div class="button" onclick="setSolution('solution1', 'hide')">hide solution</div></div>
+
+        <div>Schreiben Sie eine Funktion identity_function(), die ein Argument als Parameter entgegen nimmt und eine Funktion zurück gibt, die dieses Argument zurück gibt.
+            <div class="button" onclick="setSolution('solution2', 'visible')">show solution</div><div class="button" onclick="setSolution('solution2', 'hide')">hide solution</div></div>
+
+        <div>Schreiben Sie zwei binäre Funktionen add und mul, die Summe und Produkt berechnen.
+            <div class="button" onclick="setSolution('solution3', 'visible')">show solution</div><div class="button" onclick="setSolution('solution3', 'hide')">hide solution</div></div>
+
+        <div>Schreiben Sie eine Addier-Funktion addf(), so dass addf(x)(y) genau x + y zurück gibt. (Es haben also zwei Funktionsaufrufe zu erfolgen. addf(x) liefert eine Funktion, die auf y angewandt wird.)
+            <div class="button" onclick="setSolution('solution4', 'visible')">show solution</div><div class="button" onclick="setSolution('solution4', 'hide')">hide solution</div></div>
+
+        <div>Schreiben Sie die Prototypen Person und Auto in JavaScript, so dass jede Person weiß, welche Autos sie besitzt. Schreiben Sie eine Funktion conflict(), die feststellt, ob ein Auto von mehr als einer Person besessen wird.
+            <div class="button" onclick="setSolution('solution5', 'visible')">show solution</div><div class="button" onclick="setSolution('solution5', 'hide')">hide solution</div></div>
+
+        <div>Schreiben Sie im Browser die Fibonacci-Funktion in JS und geben Sie die ersten 2000 Fibonacci-Zahlen 0,1,1,2,3,5,8,13,... auf der Konsole mit console.log() aus.
+            <div class="button" onclick="setSolution('solution6', 'visible')">show solution</div><div class="button" onclick="setSolution('solution6', 'hide')">hide solution</div></div>
+        <div>Task 7: Deklarieren Sie irgendeine Varaible und prüfen Sie den Typ dieser mit typeof. Lernen Sie über Klassen für instaceof.
+            <div class="button" onclick="setSolution('solution7', 'visible')">show solution</div><div class="button" onclick="setSolution('solution7', 'hide')">hide solution</div></div>
+    </div>
+
+    <div class="item1 container2">
+        <div class="hidden" id="solution1">
+            <ul>function identity(parameter){</ul>
+            <ul>console.log(parameter)</ul>
+            <ul>}</ul>
         </div>
-        <nav>
-            <ul>
 
-                <li><a href="../htmls/index.html">Home</a></li>
-
-            </ul>
-        </nav>
-        <div class="container1">
-            <div class="item1 container2">
-                <div>Task 1: Schreiben Sie eine Funktion identity(), die ein Argument als Parameter entgegen nimmt und dieses als Ergebnis zurück gibt.
-                    <div class="button" onclick="setSolution('solution1', 'visible')">show solution</div><div class="button" onclick="setSolution('solution1', 'hide')">hide solution</div></div>
-
-                <div>Schreiben Sie eine Funktion identity_function(), die ein Argument als Parameter entgegen nimmt und eine Funktion zurück gibt, die dieses Argument zurück gibt.
-                    <div class="button" onclick="setSolution('solution2', 'visible')">show solution</div><div class="button" onclick="setSolution('solution2', 'hide')">hide solution</div></div>
-
-                <div>Schreiben Sie zwei binäre Funktionen add und mul, die Summe und Produkt berechnen.
-                    <div class="button" onclick="setSolution('solution3', 'visible')">show solution</div><div class="button" onclick="setSolution('solution3', 'hide')">hide solution</div></div>
-
-                <div>Schreiben Sie eine Addier-Funktion addf(), so dass addf(x)(y) genau x + y zurück gibt. (Es haben also zwei Funktionsaufrufe zu erfolgen. addf(x) liefert eine Funktion, die auf y angewandt wird.)
-                    <div class="button" onclick="setSolution('solution4', 'visible')">show solution</div><div class="button" onclick="setSolution('solution4', 'hide')">hide solution</div></div>
-
-                <div>Schreiben Sie die Prototypen Person und Auto in JavaScript, so dass jede Person weiß, welche Autos sie besitzt. Schreiben Sie eine Funktion conflict(), die feststellt, ob ein Auto von mehr als einer Person besessen wird.
-                    <div class="button" onclick="setSolution('solution5', 'visible')">show solution</div><div class="button" onclick="setSolution('solution5', 'hide')">hide solution</div></div>
-
-                <div>Schreiben Sie im Browser die Fibonacci-Funktion in JS und geben Sie die ersten 2000 Fibonacci-Zahlen 0,1,1,2,3,5,8,13,... auf der Konsole mit console.log() aus.
-                    <div class="button" onclick="setSolution('solution6', 'visible')">show solution</div><div class="button" onclick="setSolution('solution6', 'hide')">hide solution</div></div>
-            </div>
-
-            <div class="item1 containe2">
-                <div class="hidden" id="solution1">function identity(parameter){
-                    console.log(parameter)
-                    }</div>
-
-                <div class="hidden" id="solution2">function identity_function(parameter){
-                    identity(parameter)
-                    }
-                </div>
-                <div class="hidden" id="solution3">
-                    function add(x, y){
-                    return x+y
-                    }
-
-                    function mul(x,y){
-                    return x*y
-                    }
-                </div>
-                <div class="hidden" id="solution4">
-                    function addf(x) {
-                    return function(y) {
-                    return x + y
-                    }
-                    }
-                </div>
-                <div class="hidden" id="solution5">
-                    const Person = {
-                    cars: []
-                    };
-                    const Auto = {};
-
-                    const ford = {
-                    owner: '',
-                    __proto__: Person
-                    };
-                    const seat = {
-                    owner: '',
-                    __proto__: Person
-                    };
-
-                    const hans = {
-                    cars: [seat],
-                    __proto__: Person
-                    };
-
-                    const peter = {
-                    cars: [ford,seat],
-                    __proto__: Person
-                    };
-
-                    function conflict(car, persons){
-                    var owners = 0;
-                    persons.forEach( person => person.cars.includes( car ) &&  owners++);
-                    return owners > 1;
-                    }
-
-                    const result = conflict(seat, [peter, hans ]);
-                    console.log(result);
-
-                </div>
-                <div class="hidden" id="solution6">
-
-                    function fibonnaciUntil2000(x,y){
-                    if(fibonnaciNumber==0){
-                    console.log(x)
-                    console.log(y)
-                    fibonnaciNumber=fibonnaciNumber+2
-                    fibonnaciUntil2000(y,x+y)
-                    }
-                    else if(fibonnaciNumber<2001){
-                    console.log(x+y)
-                    fibonnaciNumber++
-                    fibonnaciUntil2000(y,x+y,)
-                    }
-                    }
-                    let fibonnaciNumber = 0
-
-                    fibonnaciUntil2000(0,1)
-                </div>
-            </div>
+        <div class="hidden" id="solution2"><ul>function identity_function(parameter){</ul>
+            <ul>identity (parameter)</ul>
+            <ul>}</ul>
         </div>
+        <div class="hidden" id="solution3">
+            <ul>function add(x, y){</ul>
+            <ul>return x+y</ul>
+            <ul>}</ul>
+
+            <ul>function mul(x,y){</ul>
+            <ul>return x*y</ul>
+            <ul>}</ul>
+        </div>
+        <div class="hidden" id="solution4">
+            <ul>function addf(x) {</ul>
+            <ul>return function(y) {</ul>
+            <ul>return x + y</ul>
+            <ul>}</ul>
+            <ul>}</ul>
+        </div>
+        <div class="hidden" id="solution5">
+            <ul>  const Person = {</ul>
+            <ul>  cars: []</ul>
+            <ul>  };</ul>
+            <ul>  const Auto = {};</ul>
+
+            <ul>   const ford = {</ul>
+            <ul>  owner: '',</ul>
+            <ul>  __proto__: Person</ul>
+            <ul>  };</ul>
+            <ul>   const seat = {</ul>
+            <ul>   owner: '',</ul>
+            <ul>    __proto__: Person</ul>
+            <ul>    };</ul>
+
+            <ul>    const hans = {</ul>
+            <ul>    cars: [seat],</ul>
+            <ul>    __proto__: Person</ul>
+            <ul>    };</ul>
+
+            <ul>    const peter = {</ul>
+            <ul>   cars: [ford,seat],</ul>
+            <ul>   __proto__: Person</ul>
+            <ul>  };</ul>
+
+            <ul>  function conflict(car, persons){</ul>
+            <ul>var owners = 0;</ul>
+            <ul> persons.forEach( person => person.cars.includes( car ) &&  owners++);</ul>
+            <ul>return owners > 1;</ul>
+            <ul>}</ul>
+
+            <ul>const result = conflict(seat, [peter, hans ]);</ul>
+            <ul>console.log(result);</ul>
+
+        </div>
+        <div class="hidden" id="solution6">
+
+            <ul>function fibonnaciUntil2000(x,y){</ul>
+            <ul> if(fibonnaciNumber==0){</ul>
+            <ul> console.log(x)</ul>
+            <ul> console.log(y)</ul>
+            <ul> fibonnaciNumber=fibonnaciNumber+2</ul>
+            <ul>fibonnaciUntil2000(y,x+y)</ul>
+            <ul> }</ul>
+            <ul> else if(fibonnaciNumber<2001){</ul>
+            <ul> console.log(x+y)</ul>
+            <ul>fibonnaciNumber++</ul>
+            <ul> fibonnaciUntil2000(y,x+y,)</ul>
+            <ul> }</ul>
+            <ul>}</ul>
+            <ul>let fibonnaciNumber = 0</ul>
+
+            <ul>fibonnaciUntil2000(0,1)</ul>
+        </div>
+        <div class="hidden" id="solution7">
+
+            <ul>let randomNumber = 5</ul>
+
+            <ul> console.log(typeof (randomNumber));</ul>
+            <ul>console.log(typeof (randomNumber)==='number');</ul>
+
+            <ul> class fruit {</ul>
+            <ul> constructor(name, color) {</ul>
+            <ul> this.name = name;</ul>
+            <ul> this.color = color;</ul>
+            <ul> }</ul>
+            <ul> }</ul>
+            <ul> let apple = new fruit('apple','red');</ul>
+
+            <ul>console.log(apple instanceof fruit);</ul>
+        </div>
+    </div>
+</div>
 
 </body>
 <script src="./js/showHideSolutions"></script>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Exercises</title>
+  <link rel="stylesheet" href="../css/exercises.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<script>
+  const setSolution = (id, visibility) => {
+
+
+    const element = document.getElementById(id);
+    switch (visibility) {
+      case "visible":
+        element.classList.remove("hidden");
+        break;
+      case "hide":
+        element.classList.add("hidden");
+        break;
+    }
+  }
+
+</script>
+
+
+
+<body class="html  first_section">
+
+<div>
+  <img src="../pngs/NightHopper.png" id="logo">
+</div>
+<nav>
+  <ul>
+
+    <li><a href="../htmls/index.html">Home</a></li>
+
+  </ul>
+</nav>
+<div class="container1">
+  <div class="item1 container2">
+    <div>Task 1: Schreiben Sie eine Funktion, die 3 Längen eines Würfels bekommt und das Volum zurück gibt.
+      <div class="button" onclick="setSolution('solution1', 'visible')">show solution</div><div class="button" onclick="setSolution('solution1', 'hide')">hide solution</div></div>
+
+    <div>Task 2: Bearbeiten Sie die Task 1, jedoch mit einer Arrow Function
+      <div class="button" onclick="setSolution('solution2', 'visible')">show solution</div><div class="button" onclick="setSolution('solution2', 'hide')">hide solution</div></div>
+
+    <div>Task 3: Erzeugen Sie einen Array mit Zahlen, filtern Sie es und geben Sie zurück den Array, nur mit den geraden Zahlen.
+      <div class="button" onclick="setSolution('solution3', 'visible')">show solution</div><div class="button" onclick="setSolution('solution3', 'hide')">hide solution</div></div>
+
+    <div>Task 4: Erzeugen Sie einen neuen Array mit Map und bearbeiten Sie es zu einem String-Array.
+      <div class="button" onclick="setSolution('solution4', 'visible')">show solution</div><div class="button" onclick="setSolution('solution4', 'hide')">hide solution</div></div>
+
+  </div>
+
+  <div class="item1 container2">
+    <div class="hidden" id="solution1">
+      <ul> function volume(a,b,c){</ul>
+      <ul>return a*b*c;}</ul>
+    </div>
+
+    <div class="hidden" id="solution2">
+      <ul> let volumeArrow = (a,b,c) => a*b*c</ul>
+
+      <ul> console.log(volume(2,2,2))</ul>
+      <ul> console.log(volumeArrow(2,3,4))</ul>
+    </div>
+    <div class="hidden" id="solution3">
+      <ul>  const array=[3,4,3,7]</ul>
+
+      <ul>  const odd = array.filter(n => n%2==0)</ul>
+
+      <ul> console.log(odd)</ul>
+    </div>
+    <div class="hidden" id="solution4">
+      <ul> const numbers2 = array.filter(n => n%2==0).map(n => ({value: n}));</ul>
+
+      <ul> console.log(numbers2);</ul>
+    </div>
+  </div>
+</div>
+
+</body>
+<script src="./js/showHideSolutions"></script>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Exercises</title>
+  <link rel="stylesheet" href="../css/exercises.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<script>
+  const setSolution = (id, visibility) => {
+
+
+    const element = document.getElementById(id);
+    switch (visibility) {
+      case "visible":
+        element.classList.remove("hidden");
+        break;
+      case "hide":
+        element.classList.add("hidden");
+        break;
+    }
+  }
+
+</script>
+
+
+
+<body class="html  first_section">
+
+<div>
+  <img src="../pngs/NightHopper.png" id="logo">
+</div>
+<nav>
+  <ul>
+
+    <li><a href="../htmls/index.html">Home</a></li>
+
+  </ul>
+</nav>
+<div class="container1">
+  <div class="item1 container2">
+    <div>Task 5: Sie haben in den vorherigen Kapitel eine Funktion für Summenberechnung geschreiben. Wiederholen Sie es diesmal mit reduce.
+      <div class="button" onclick="setSolution('solution5', 'visible')">show solution</div><div class="button" onclick="setSolution('solution5', 'hide')">hide solution</div></div>
+
+    <div>Task 6: Deklarieren Sie 2 Array, das erste mit Essential in einem Hamburger und den 2. mit den restlichen Zutaten. "Schieben" Sie die essentials in der Mitte der Zutaten mit Spread.
+      <div class="button" onclick="setSolution('solution6', 'visible')">show solution</div><div class="button" onclick="setSolution('solution6', 'hide')">hide solution</div></div>
+
+    <div>Task 7: Deklarieren Sie 2 Array, das erste mit Essential in einem Hamburger und den 2. mit den restlichen Zutaten. "Schieben" Sie die essentials in der Mitte der Zutaten mit Spread.
+      <div class="button" onclick="setSolution('solution6', 'visible')">show solution</div><div class="button" onclick="setSolution('solution6', 'hide')">hide solution</div></div>
+
+  </div>
+
+
+
+  <div class="item1 container2">
+    <div class="hidden" id="solution5">
+      <ul>const arr=[2,-4,3,7];</ul>
+
+      <ul>const sum = arr.reduce((accumulator,currentvalue) => accumulator + currentvalue);</ul>
+
+      <ul>console.log(sum);</ul>
+
+    </div>
+    <div class="hidden" id="solution6">
+
+      <ul> var essentials = ['lettuce','ham',,'cheddar','tomato'];</ul>
+      <ul> var hamburger = ['bread',...essentials,'mayo'];</ul>
+      <ul> console.log('My handburger has  these ingredients in the following order: ' + hamburger);</ul>
+
+    </div>
+    <div class="hidden" id="solution7">
+
+      <ul>var essentials = ['lettuce','ham',,'cheddar','tomato'];</ul>
+      <ul>var hamburger = ['bread',...essentials,'mayo'];</ul>
+      <ul> console.log('My handburger has  these ingredients in the following order: ' + hamburger);</ul>
+
+    </div>
+
+  </div>
+</div>
+
+</body>
+<script src="./js/showHideSolutions"></script>
+</html>

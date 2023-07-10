@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Exercises</title>
+  <link rel="stylesheet" href="../css/exercises.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<script>
+  const setSolution = (id, visibility) => {
+
+
+    const element = document.getElementById(id);
+    switch (visibility) {
+      case "visible":
+        element.classList.remove("hidden");
+        break;
+      case "hide":
+        element.classList.add("hidden");
+        break;
+    }
+  }
+
+</script>
+
+
+
+<body class="html  first_section">
+
+<div>
+  <img src="../pngs/NightHopper.png" id="logo">
+</div>
+<nav>
+  <ul>
+
+    <li><a href="../htmls/index.html">Home</a></li>
+
+  </ul>
+</nav>
+<div class="container1">
+  <div class="item1 container2">
+    <div>Task 1: Schreiben Sie einen fetch GET Program
+      <div class="button" onclick="setSolution('solution1', 'visible')">show solution</div><div class="button" onclick="setSolution('solution1', 'hide')">hide solution</div></div>
+
+    <div>Task 2: Schreiben Sie einen fetch POST Program
+      <div class="button" onclick="setSolution('solution2', 'visible')">show solution</div><div class="button" onclick="setSolution('solution2', 'hide')">hide solution</div></div>
+
+    <div>Task 3: Schreiben Sie einen fetch PUT Program
+      <div class="button" onclick="setSolution('solution3', 'visible')">show solution</div><div class="button" onclick="setSolution('solution3', 'hide')">hide solution</div></div>
+
+    <div>Task 4: Schreiben Sie einen fetch DELETE Program
+      <div class="button" onclick="setSolution('solution4', 'visible')">show solution</div><div class="button" onclick="setSolution('solution4', 'hide')">hide solution</div></div>
+
+  </div>
+
+
+
+  <div class="item1 container2">
+    <div class="hidden" id="solution1">
+
+      <ul> fetch('http://my-burger-api.herokuapp.com/burgers/28')</ul>
+      <ul> .then(response => response.json())</ul>
+      <ul> .then(data => console.log(data))</ul>
+
+    </div>
+    <div class="hidden" id="solution2">
+
+      <ul> const data= {</ul>
+      <ul> name:'Mushroom'</ul>
+      <ul>  }</ul>
+
+      <ul>  fetch('http://my-burger-api.herokuapp.com/burgers/28', {</ul>
+      <ul>  method: 'POST',</ul>
+      <ul>  headers: {</ul>
+      <ul>  'Content-Type': 'application/json'</ul>
+      <ul>  },</ul>
+      <ul>  body:JSON.stringify(data)</ul>
+      <ul>  })</ul>
+      <ul> .then(response => response.json())</ul>
+      <ul> .then(data => console.log(data))</ul>
+    </div>
+    <div class="hidden" id="solution3">
+
+      <ul>  const datas= {</ul>
+      <ul> restaurant:'Restaurant',</ul>
+      <ul> food: ['beef','pig','cheese']</ul>
+      <ul> }</ul>
+
+      <ul>  fetch('http://my-burger-api.herokuapp.com/burgers/28', {</ul>
+      <ul>  method: 'PUT',</ul>
+      <ul>  headers: {</ul>
+      <ul> 'Content-Type': 'application/json'</ul>
+      <ul>  },</ul>
+      <ul> body:JSON.stringify(datas)</ul>
+      <ul> })</ul>
+      <ul> .then(response => response.json())</ul>
+      <ul>.then(data => console.log(data))</ul>
+      <ul> .catch(err => console.error(err))</ul>
+
+    </div>
+    <div class="hidden" id="solution4">
+
+      <ul> fetch('http://my-burger-api.herokuapp.com/burgers/28', {</ul>
+      <ul> method:'DELETE'</ul>
+      <ul> })</ul>
+      <ul> .then(response => response.json())</ul>
+      <ul> .then(data => console.log(data))</ul>
+
+    </div>
+
+  </div>
+</div>
+
+</body>
+<script src="./js/showHideSolutions"></script>
+</html>

@@ -69,3 +69,18 @@ function fibonnaciUntil2000(x,y){
 let fibonnaciNumber = 0
 
 fibonnaciUntil2000(0,1)
+
+let randomNumber = 5
+
+console.log(typeof (randomNumber));
+console.log(typeof (randomNumber)==='number');
+
+class fruit {
+    constructor(name, color) {
+        this.name = name;
+        this.color = color;
+    }
+}
+let apple = new fruit('apple','red');
+
+console.log(apple instanceof fruit);

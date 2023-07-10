@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Exercises</title>
+  <link rel="stylesheet" href="../css/exercises.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<script>
+  const setSolution = (id, visibility) => {
+
+
+    const element = document.getElementById(id);
+    switch (visibility) {
+      case "visible":
+        element.classList.remove("hidden");
+        break;
+      case "hide":
+        element.classList.add("hidden");
+        break;
+    }
+  }
+
+</script>
+
+<style>
+  .container1
+</style>
+
+<body class="html  first_section">
+
+<div>
+  <img src="../pngs/NightHopper.png" id="logo">
+</div>
+<nav>
+  <ul>
+
+    <li><a href="../htmls/index.html">Home</a></li>
+
+  </ul>
+</nav>
+<div class="container1">
+  <div class="item1 container2">
+    <div>Task 1: Erzeuge Sie eine Klasse Shape, in der SIe geomatrische Formen erzeugen. Nötige Parameter sind Höhe, Breite, Radius und Farbe. Erzeugen sie Shapes und geben sie in der Konsolo deren Infos.
+      <div class="button" onclick="setSolution('solution1', 'visible')">show solution</div><div class="button" onclick="setSolution('solution1', 'hide')">hide solution</div></div>
+
+    <div>Task 2: Geben Sie Ihren Namen und Alter in der Konsole mit Hilfe von Template Strings.
+      <div class="button" onclick="setSolution('solution2', 'visible')">show solution</div><div class="button" onclick="setSolution('solution2', 'hide')">hide solution</div></div>
+
+    <div>Task 3: Schreiben Sie eine Generator Funktion.
+      <div class="button" onclick="setSolution('solution3', 'visible')">show solution</div><div class="button" onclick="setSolution('solution3', 'hide')">hide solution</div></div>
+
+    <div>Task 4: Zeigen Sie ihre Kenntnisse zu Map,Set,Delete und Clear dar.
+      <div class="button" onclick="setSolution('solution4', 'visible')">show solution</div><div class="button" onclick="setSolution('solution4', 'hide')">hide solution</div></div>
+  </div>
+
+  <div class="item1 container2">
+    <div class="hidden" id="solution1">
+      <ul>  class Shape {</ul>
+      <ul>  constructor(height, width, borderRadius, backgroundColor) {</ul>
+      <ul> this.height = height</ul>
+      <ul> this.width = width</ul>
+      <ul> this.borderRadius = borderRadius</ul>
+      <ul> this.backgroundColor = backgroundColor</ul>
+      <ul> }</ul>
+      <ul> }</ul>
+      <ul>const redRectangle = new Shape(200, 100, 0, "red")</ul>
+      <ul>const blueCircle = new Shape(80, 80, 40, "blue")</ul>
+
+      <ul>console.log(blueCircle.height)</ul>
+    </div>
+
+    <div class="hidden" id="solution2">
+      <ul>let name = 'Vlad';</ul>
+      <ul>let birthYear = 2001;</ul>
+      <ul>let currentYear = 2023</ul>
+      <ul>console.log(`Mein Name ist ${name} und bin ${currentYear-birthYear} alt´);</ul>
+    </div>
+    <div class="hidden" id="solution3">
+      <ul>function* taxiPassagers(){</ul>
+      <ul>let passagers = 1;</ul>
+      <ul>while(passagers<5)</ul>
+      <ul>yield passagers++;</ul>
+      <ul>console.log("Capacity full");</ul>
+      <ul>}</ul>
+      <ul>let pitStop = taxiPassagers();</ul>
+      <ul>console.log(pitStop.next().value);</ul>
+      <ul>console.log(pitStop.next().value);</ul>
+      <ul>console.log(pitStop.next().value);</ul>
+      <ul>console.log(pitStop.next().value);</ul>
+      <ul>console.log(pitStop.next().value);</ul>
+    </div>
+    <div class="hidden" id="solution4">
+      <ul>const myMap = new Map([[1,'one'],[2,'two']]);</ul>
+      <ul> console.log(myMap);</ul>
+      <ul> myMap.set( 1,2);</ul>
+      <ul>console.log(myMap);</ul>
+      <ul>myMap.delete(2);</ul>
+      <ul>console.log(myMap);</ul>
+      <ul>myMap.set(2,'two');</ul>
+      <ul>myMap.clear(2);</ul>
+      <ul> console.log(myMap);</ul>
+    </div>
+  </div>
+</div>
+
+</body>
+<script src="./js/showHideSolutions"></script>
+</html>

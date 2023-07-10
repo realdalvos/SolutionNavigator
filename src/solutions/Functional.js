@@ -29,3 +29,47 @@ const arr=[2,-4,3,7];
 const sum = arr.reduce((accumulator,currentvalue) => accumulator + currentvalue);
 
 console.log(sum);
+
+//Spread
+
+var essentials = ['lettuce','ham',,'cheddar','tomato'];
+var hamburger = ['bread',...essentials,'mayo'];
+console.log('My handburger has  these ingredients in the following order: ' + hamburger);
+
+//call
+
+const besitzer = {
+    nameAuto: function(){
+        return this.name + " besitzt einen " + this.auto;
+    }
+}
+
+const personA = {
+    name:"Paul",
+    auto:"Ford"
+}
+const personB = {
+    name:"Jonas",
+    auto:"Audi"
+}
+
+console.log(besitzer.nameAuto.call(personA));
+
+console.log(besitzer.nameAuto.call(personB));
+
+/*apply
+
+const besitzer2 = (a,b) => {
+    return `${a} ${this.name} ${b}´;
+};
+
+const object = {name:"Paul"};
+
+console.log(besitzer2.call(object,"Hallo","Wie gehts"));
+
+*/
+//selber arr von vorherigen AUfgaben(let arr=[2,-4,3,7];)
+console.log(Math.max.apply(null,arr));
+
+//bind
+
