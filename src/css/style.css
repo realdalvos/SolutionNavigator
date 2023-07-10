@@ -25,14 +25,13 @@ img {
     color: yellow;
     justify-content: right;
     position: relative;
-    left: 1075px;
+    left: 520px;
 }
 
 h2 {
     color: greenyellow;
 }
 
-button{
     color: rebeccapurple;
     border-radius: 50px;
 }
@@ -112,8 +111,9 @@ ul {
     display: flex;
     list-style-type: none;
     width: 1000px;
-    justify-content: space-around;
-    font-size: 30px;
+    justify-content: space-between;
+    justify-content: left;
+    font-size: 15px;
 }
 
 #flex-container {
@@ -167,10 +167,10 @@ tr:hover{
 
 .skillz{
     position: relative;
-    left: 650px;
+    left: 440px;
 }
 
 .midButton{
     position: relative;
-    left: 1150px;
+    left: 600px;
 }
