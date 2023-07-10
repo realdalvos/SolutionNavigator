@@ -12,6 +12,11 @@ const blueCircle = new Shape(80, 80, 40, "blue")
 
 console.log(blueCircle.height)
 
+//modules
+export { name, draw, reportArea, reportPerimeter };
+import { name, draw, reportArea, reportPerimeter } from "./modules/square.js";
+
+
 //template strings
 
 let name = 'Vlad';

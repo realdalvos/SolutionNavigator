@@ -36,7 +36,7 @@ var essentials = ['lettuce','ham',,'cheddar','tomato'];
 var hamburger = ['bread',...essentials,'mayo'];
 console.log('My handburger has  these ingredients in the following order: ' + hamburger);
 
-//call
+//call With call(), an object can use a method belonging to another object.
 
 const besitzer = {
     nameAuto: function(){
@@ -57,7 +57,13 @@ console.log(besitzer.nameAuto.call(personA));
 
 console.log(besitzer.nameAuto.call(personB));
 
-/*apply
+
+/*apply The call() method takes arguments separately.
+The apply() method is very handy if you want to use an array instead of an argument list.
+
+        The apply() method takes arguments as an array.
+
+
 
 const besitzer2 = (a,b) => {
     return `${a} ${this.name} ${b}´;
@@ -68,8 +74,10 @@ const object = {name:"Paul"};
 console.log(besitzer2.call(object,"Hallo","Wie gehts"));
 
 */
-//selber arr von vorherigen AUfgaben(let arr=[2,-4,3,7];)
+//selber arr von vorherigen Aufgaben(let arr=[2,-4,3,7];)
 console.log(Math.max.apply(null,arr));
 
-//bind
+//bind With the bind() method, an object can borrow a method from another object.
+
+
 

@@ -7,7 +7,7 @@ const data= {
 name:'Mushroom'
 }
 
-fetch('http://my-burger-api.herokuapp.com/burgers/28', {
+fetch('http://my-burger-api.herokuapp.com/burgers/27', {
 method: 'POST',
 headers: {
     'Content-Type': 'application/json'
@@ -25,7 +25,7 @@ const datas= {
     food: ['beef','pig','cheese']
     }
 
-fetch('http://my-burger-api.herokuapp.com/burgers/28', {
+fetch('http://my-burger-api.herokuapp.com/burgers/24', {
 method: 'PUT',
 headers: {
     'Content-Type': 'application/json'
@@ -38,7 +38,7 @@ headers: {
 
 
 
-fetch('http://my-burger-api.herokuapp.com/burgers/28', {
+fetch('http://my-burger-api.herokuapp.com/burgers/22', {
             method:'DELETE'
    })
     .then(response => response.json())
@@ -53,7 +53,7 @@ print().then(response => console.log(response))
 
 async function getData(){
     const response = await fetch('https://restcountries.com/v3.1/all') //return Promise)
-    const data = await response.json() // async function-> return a Prmise, therefor await again
+    const data = await response.json() // async function-> return a Promise, therefor await again
     console.log(data)
 }
 getData()
