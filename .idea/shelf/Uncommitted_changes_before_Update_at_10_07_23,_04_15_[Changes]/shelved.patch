@@ -1,0 +1,106 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -1,23 +1,18 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="c6d74691-ad00-4f06-b6f5-3404ed97683f" name="Changes" comment="functional solution showing added + repositioning of home items to middle">
+-      <change afterPath="$PROJECT_DIR$/src/exercises/ECMA.html" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/exercises/FetchApi.html" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/exercises/SVG.html" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/exercises/TS.html" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/exercises/functional_2.html" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/solutions/ECMA.js" afterDir="false" />
++    <list default="true" id="c6d74691-ad00-4f06-b6f5-3404ed97683f" name="Changes" comment="Solutions FlexBox for view and hide enabled">
++      <change afterPath="$PROJECT_DIR$/src/css/showHideSolutions.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/exercises/functional.html" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/js/showHideSolutions.js" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/solutions/Functional.js" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/css/exerciseJV.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/exercises.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/css/exerciseJV.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/exerciseJV.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/exercises/exerciseJS.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/exerciseJS.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/exercises/exerciseRWD.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/exerciseRWD.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/exercises/functional.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/functional_1.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/htmls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmls/index.html" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/htmls/solutions.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmls/solutions.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/js/fetchapi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/fetchapi.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/solutions/Functional.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/Functional.js" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/solutions/JS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/JS.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/typescript.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/typescript.ts" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -30,8 +25,8 @@
+         <option value="Class" />
+         <option value="HTTP Request" />
+         <option value="TypeScript File" />
+-        <option value="CSS File" />
+         <option value="JavaScript File" />
++        <option value="CSS File" />
+         <option value="HTML File" />
+       </list>
+     </option>
+@@ -65,11 +60,11 @@
+ }</component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+-      <recent name="$PROJECT_DIR$/src/solutions" />
+       <recent name="$PROJECT_DIR$/src/htmls/exercises" />
+       <recent name="$PROJECT_DIR$/src/htmls" />
+       <recent name="$PROJECT_DIR$/src" />
+       <recent name="$PROJECT_DIR$/src/pngs" />
++      <recent name="$PROJECT_DIR$/src/css" />
+     </key>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+@@ -101,7 +96,7 @@
+       <workItem from="1686076482741" duration="3039000" />
+       <workItem from="1686348282636" duration="5785000" />
+       <workItem from="1686600524875" duration="5264000" />
+-      <workItem from="1687994240595" duration="39623000" />
++      <workItem from="1687994240595" duration="19473000" />
+     </task>
+     <task id="LOCAL-00001" summary="Commit neuer Repo, um fortzugehen mit laufender Commit Möglichkeit">
+       <created>1666630526775</created>
+@@ -327,14 +322,7 @@
+       <option name="project" value="LOCAL" />
+       <updated>1688673264809</updated>
+     </task>
+-    <task id="LOCAL-00033" summary="functional solution showing added + repositioning of home items to middle">
+-      <created>1688799429253</created>
+-      <option name="number" value="00033" />
+-      <option name="presentableId" value="LOCAL-00033" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1688799429253</updated>
+-    </task>
+-    <option name="localTasksCounter" value="34" />
++    <option name="localTasksCounter" value="33" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -367,6 +355,7 @@
+     </option>
+   </component>
+   <component name="VcsManagerConfiguration">
++    <MESSAGE value="Neue Dateien" />
+     <MESSAGE value="Neuer Anfang, Restrukturierung" />
+     <MESSAGE value="Coloring nad Button" />
+     <MESSAGE value="Update README.md mit Vor- und Nachname und Studentenkürzel" />
+@@ -391,7 +380,6 @@
+     <MESSAGE value="add nft" />
+     <MESSAGE value="solutions to JavaScript Exercises and minor changes to table references" />
+     <MESSAGE value="Solutions FlexBox for view and hide enabled" />
+-    <MESSAGE value="functional solution showing added + repositioning of home items to middle" />
+-    <option name="LAST_COMMIT_MESSAGE" value="functional solution showing added + repositioning of home items to middle" />
++    <option name="LAST_COMMIT_MESSAGE" value="Solutions FlexBox for view and hide enabled" />
+   </component>
+ </project>
+\ No newline at end of file
