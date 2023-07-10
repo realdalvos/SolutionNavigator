@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6d74691-ad00-4f06-b6f5-3404ed97683f" name="Changes" comment="functional solution showing added + repositioning of home items to middle">
-      <change afterPath="$PROJECT_DIR$/src/exercises/ECMA.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercises/FetchApi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercises/SVG.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercises/TS.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercises/functional_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solutions/ECMA.js" afterDir="false" />
+    <list default="true" id="c6d74691-ad00-4f06-b6f5-3404ed97683f" name="Changes" comment="Added Solutions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/exerciseJV.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/exercises.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercises/exerciseJS.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/exerciseJS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercises/exerciseRWD.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/exerciseRWD.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercises/functional.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/functional_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/htmls/solutions.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmls/solutions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/fetchapi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/fetchapi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solutions/Functional.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/Functional.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solutions/JS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/JS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/typescript.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/typescript.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +86,7 @@
       <workItem from="1686076482741" duration="3039000" />
       <workItem from="1686348282636" duration="5785000" />
       <workItem from="1686600524875" duration="5264000" />
-      <workItem from="1687994240595" duration="39623000" />
+      <workItem from="1687994240595" duration="40265000" />
     </task>
     <task id="LOCAL-00001" summary="Commit neuer Repo, um fortzugehen mit laufender Commit Möglichkeit">
       <created>1666630526775</created>
@@ -334,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688799429253</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Added Solutions">
+      <created>1688954882398</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1688954882398</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +359,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Neuer Anfang, Restrukturierung" />
     <MESSAGE value="Coloring nad Button" />
     <MESSAGE value="Update README.md mit Vor- und Nachname und Studentenkürzel" />
     <MESSAGE value="instruct the page to match the screen's width in device-independent pixels" />
@@ -392,6 +383,7 @@
     <MESSAGE value="solutions to JavaScript Exercises and minor changes to table references" />
     <MESSAGE value="Solutions FlexBox for view and hide enabled" />
     <MESSAGE value="functional solution showing added + repositioning of home items to middle" />
-    <option name="LAST_COMMIT_MESSAGE" value="functional solution showing added + repositioning of home items to middle" />
+    <MESSAGE value="Added Solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Solutions" />
   </component>
 </project>
