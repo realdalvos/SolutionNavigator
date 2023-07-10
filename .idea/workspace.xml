@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6d74691-ad00-4f06-b6f5-3404ed97683f" name="Changes" comment="Positioning and crypto table">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solutions/Async.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/Async.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solutions/ECMA.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/ECMA.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solutions/Functional.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/Functional.js" afterDir="false" />
+    <list default="true" id="c6d74691-ad00-4f06-b6f5-3404ed97683f" name="Changes" comment="last update">
+      <change beforePath="$PROJECT_DIR$/src/solutions/JS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/JS.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -343,7 +340,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688955623569</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="last update">
+      <created>1688971498314</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1688971498314</updated>
+    </task>
+    <task id="LOCAL-00038" summary="last update">
+      <created>1688971603221</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1688971603221</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,7 +387,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update README.md mit Vor- und Nachname und Studentenkürzel" />
     <MESSAGE value="instruct the page to match the screen's width in device-independent pixels" />
     <MESSAGE value="js for hamburger" />
     <MESSAGE value="Added Logo" />
@@ -401,6 +411,7 @@
     <MESSAGE value="functional solution showing added + repositioning of home items to middle" />
     <MESSAGE value="Added Solutions" />
     <MESSAGE value="Positioning and crypto table" />
-    <option name="LAST_COMMIT_MESSAGE" value="Positioning and crypto table" />
+    <MESSAGE value="last update" />
+    <option name="LAST_COMMIT_MESSAGE" value="last update" />
   </component>
 </project>
