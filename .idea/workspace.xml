@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6d74691-ad00-4f06-b6f5-3404ed97683f" name="Changes" comment="Added Solutions">
+    <list default="true" id="c6d74691-ad00-4f06-b6f5-3404ed97683f" name="Changes" comment="Positioning and crypto table">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercises/ECMA.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/ECMA.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercises/FetchApi.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/FetchApi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercises/SVG.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/SVG.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercises/TS.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/TS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercises/exerciseJS.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/exerciseJS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercises/functional_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/functional_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercises/functional_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/functional_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/htmls/Crypto.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmls/Crypto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/htmls/solutions.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmls/solutions.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -326,7 +335,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688954882398</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Positioning and crypto table">
+      <created>1688955601749</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1688955601749</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Positioning and crypto table">
+      <created>1688955623569</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1688955623569</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +382,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Coloring nad Button" />
     <MESSAGE value="Update README.md mit Vor- und Nachname und Studentenkürzel" />
     <MESSAGE value="instruct the page to match the screen's width in device-independent pixels" />
     <MESSAGE value="js for hamburger" />
@@ -384,6 +406,7 @@
     <MESSAGE value="Solutions FlexBox for view and hide enabled" />
     <MESSAGE value="functional solution showing added + repositioning of home items to middle" />
     <MESSAGE value="Added Solutions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Solutions" />
+    <MESSAGE value="Positioning and crypto table" />
+    <option name="LAST_COMMIT_MESSAGE" value="Positioning and crypto table" />
   </component>
 </project>
