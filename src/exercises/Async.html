@@ -33,8 +33,8 @@
 <nav>
   <ul>
 
-    <li><a href="../htmls/index.html">Home</a></li>
-    <li><a href="../htmls/solutions.html">Table</a></li>
+    <ol><a href="../htmls/index.html">Home</a></ol>
+    <ol><a href="../htmls/solutions.html">Table</a></ol>
 
   </ul>
 </nav>
@@ -51,6 +51,9 @@
 
     <div>Task 4: Schreiben Sie einen fetch DELETE Program
       <div class="button" onclick="setSolution('solution4', 'visible')">show solution</div><div class="button" onclick="setSolution('solution4', 'hide')">hide solution</div></div>
+
+    <div>Task 5: Holen sie sich die JSON Dateien von dieser Website https://restcountries.com/v3.1/all
+      <div class="button" onclick="setSolution('solution5', 'visible')">show solution</div><div class="button" onclick="setSolution('solution5', 'hide')">hide solution</div></div>
 
   </div>
 
@@ -107,6 +110,17 @@
       <ul> .then(response => response.json())</ul>
       <ul> .then(data => console.log(data))</ul>
 
+    </div>
+    <div class="hidden" id="solution5">
+      <ul>const print = async () => 'I have been printed' //keyword async makes return a Promise instead of value</ul>
+      <ul>print().then(response => console.log(response))</ul>
+
+      <ul>async function getData(){</ul>
+      <ul>const response = await fetch('https://restcountries.com/v3.1/all') //return Promise)</ul>
+      <ul>const data = await response.json() // async function-> return a Prmise, therefor await again</ul>
+      <ul>console.log(data)</ul>
+      <ul>}</ul>
+      <ul>getData()</ul>
     </div>
 
   </div>

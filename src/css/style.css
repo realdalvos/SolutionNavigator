@@ -32,6 +32,7 @@ h2 {
     color: greenyellow;
 }
 
+{
     color: rebeccapurple;
     border-radius: 50px;
 }
@@ -173,4 +174,14 @@ tr:hover{
 .midButton{
     position: relative;
     left: 600px;
+}
+.logger{
+    padding: 500px;
+    left: 1000px;
+}
+li{
+    size: 100px;
+}
+.hidden{
+    display: none;
 }

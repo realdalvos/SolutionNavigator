@@ -45,4 +45,15 @@ fetch('http://my-burger-api.herokuapp.com/burgers/28', {
     .then(data => console.log(data))
 
 
+//async-await
 
+
+const print = async () => 'I have been printed' //keyword async makes return a Promise instead of value
+print().then(response => console.log(response))
+
+async function getData(){
+    const response = await fetch('https://restcountries.com/v3.1/all') //return Promise)
+    const data = await response.json() // async function-> return a Prmise, therefor await again
+    console.log(data)
+}
+getData()

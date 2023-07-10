@@ -28,16 +28,25 @@
         <h1> &#128526 Solution Navigator &#128526</h1>
     </div>
     <h3 class="subject">Web Engineering</h3>
-    <button class="midButton"><h1>Subscribe to Newsletter</h1></button>
+    <button class="midButton" onclick="setSolution('logger', 'visible')"><h1>Subscribe to Newsletter</h1></button>
     <div>
         <ul>
             <li><a href="solutions.html" class="skillz">Test your skills</a></li>
         </ul>
     </div>
+    <div>
+        <form class="logger hidden" id="logger" method="post" action="mailto:youremail@email.com">
+            Name: <input type="text" size="10" maxlength="40" name="name" /><br />
+            E-Mail: <input type="E-Mail" size="10" maxlength="40" name="E-Mail" />
+            <button>Subscribe</button>
+        </form>
+
+    </div>
 </section>
 <footer>
 
 </footer>
+
 
 <script src="../js/app.js">
 
