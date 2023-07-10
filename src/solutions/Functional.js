@@ -79,5 +79,18 @@ console.log(Math.max.apply(null,arr));
 
 //bind With the bind() method, an object can borrow a method from another object.
 
+const person = {
+  firstName:"Pual",
+  lastName: "Steinhauer",
+  fullName: function () {
+    return this.firstName + " " + this.lastName;
+  }
+}
 
+const member = {
+  firstName:"Hannah",
+  lastName: "Kessel",
+}
+
+let fullName = person.fullName.bind(member);
 
