@@ -176,8 +176,7 @@ tr:hover{
     left: 600px;
 }
 .logger{
-    padding: 500px;
-    left: 1000px;
+   none
 }
 li{
     size: 100px;
