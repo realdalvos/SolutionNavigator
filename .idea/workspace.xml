@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6d74691-ad00-4f06-b6f5-3404ed97683f" name="Changes" comment="last update">
-      <change beforePath="$PROJECT_DIR$/src/solutions/JS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/JS.js" afterDir="false" />
+    <list default="true" id="c6d74691-ad00-4f06-b6f5-3404ed97683f" name="Changes" comment="logger added on subscride to newsletter">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09_07_23,_01_29_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09_07_23__01_29__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_23,_04_10_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_23,_04_15_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_23,_06_01_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_23,_06_36_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_23__04_10__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_23__04_15__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_23__06_01__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_23__06_36__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/htmls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmls/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solutions/Async.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/Async.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +46,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GablRWruUCFlhVIuRsuiWGX4lS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -87,6 +104,7 @@
       <workItem from="1686348282636" duration="5785000" />
       <workItem from="1686600524875" duration="5264000" />
       <workItem from="1687994240595" duration="40265000" />
+      <workItem from="1701282333499" duration="2712000" />
     </task>
     <task id="LOCAL-00001" summary="Commit neuer Repo, um fortzugehen mit laufender Commit Möglichkeit">
       <created>1666630526775</created>
@@ -326,35 +344,7 @@
       <option name="project" value="LOCAL" />
       <updated>1688954882398</updated>
     </task>
-    <task id="LOCAL-00035" summary="Positioning and crypto table">
-      <created>1688955601749</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1688955601749</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Positioning and crypto table">
-      <created>1688955623569</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1688955623569</updated>
-    </task>
-    <task id="LOCAL-00037" summary="last update">
-      <created>1688971498314</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1688971498314</updated>
-    </task>
-    <task id="LOCAL-00038" summary="last update">
-      <created>1688971603221</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1688971603221</updated>
-    </task>
-    <option name="localTasksCounter" value="39" />
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,6 +377,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Update README.md mit Vor- und Nachname und Studentenkürzel" />
     <MESSAGE value="instruct the page to match the screen's width in device-independent pixels" />
     <MESSAGE value="js for hamburger" />
     <MESSAGE value="Added Logo" />
@@ -410,8 +402,7 @@
     <MESSAGE value="Solutions FlexBox for view and hide enabled" />
     <MESSAGE value="functional solution showing added + repositioning of home items to middle" />
     <MESSAGE value="Added Solutions" />
-    <MESSAGE value="Positioning and crypto table" />
-    <MESSAGE value="last update" />
-    <option name="LAST_COMMIT_MESSAGE" value="last update" />
+    <MESSAGE value="async await and logger" />
+    <option name="LAST_COMMIT_MESSAGE" value="async await and logger" />
   </component>
 </project>

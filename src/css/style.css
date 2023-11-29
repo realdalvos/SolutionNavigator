@@ -25,7 +25,7 @@ img {
     color: yellow;
     justify-content: right;
     position: relative;
-    left: 520px;
+    left: 680px;
 }
 
 h2 {
@@ -168,12 +168,12 @@ tr:hover{
 
 .skillz{
     position: relative;
-    left: 440px;
+    left: 600px;
 }
 
 .midButton{
     position: relative;
-    left: 600px;
+    left: 730px;
 }
 .logger{
    none
